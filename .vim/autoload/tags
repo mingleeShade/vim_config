@@ -1,0 +1,1102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<SID>xx	rails.vim	/^map <SID>xx <SID>xx$/;"	m
+Abbrev	rails.vim	/^function! s:Abbrev(bang,...) abort$/;"	f
+AddBracketExpand	rails.vim	/^function! s:AddBracketExpand(abbr,expn)$/;"	f
+AddColonExpand	rails.vim	/^function! s:AddColonExpand(abbr,expn)$/;"	f
+AddParenExpand	rails.vim	/^function! s:AddParenExpand(abbr,expn,...)$/;"	f
+AddSelectiveExpand	rails.vim	/^function! s:AddSelectiveExpand(abbr,pat,expn,...)$/;"	f
+AddTabExpand	rails.vim	/^function! s:AddTabExpand(abbr,expn)$/;"	f
+Alternate	rails.vim	/^function! s:Alternate(cmd,line1,line2,count,...)$/;"	f
+Asyncer	l9/async.py	/^class Asyncer:$/;"	c	inherits:
+BufAbbreviations	rails.vim	/^function! s:BufAbbreviations()$/;"	f
+BufCommands	rails.vim	/^function! s:BufCommands()$/;"	f
+BufDatabase	rails.vim	/^function! s:BufDatabase(...)$/;"	f
+BufFinderCommands	rails.vim	/^function! s:BufFinderCommands()$/;"	f
+BufMappings	rails.vim	/^function! s:BufMappings()$/;"	f
+BufModelines	rails.vim	/^function! s:BufModelines()$/;"	f
+BufNavCommands	rails.vim	/^function! s:BufNavCommands()$/;"	f
+BufScriptWrappers	rails.vim	/^function! s:BufScriptWrappers()$/;"	f
+BufSettings	rails.vim	/^function! s:BufSettings()$/;"	f
+BufSyntax	rails.vim	/^function! s:BufSyntax()$/;"	f
+BuildContextStack	omni/cpp/namespaces.vim	/^function! s:BuildContextStack(namespaces, szCurrentScope)$/;"	f
+CanUseOmnicompletion	omni/cpp/maycomplete.vim	/^function! s:CanUseOmnicompletion()$/;"	f
+CommandEdit	rails.vim	/^function! s:CommandEdit(cmd,name,prefix,suffix,filter,default,...)$/;"	f
+CommandList	rails.vim	/^function! s:CommandList(A,L,P)$/;"	f
+Complete_cd	rails.vim	/^function! s:Complete_cd(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_console	rails.vim	/^function! s:Complete_console(A,L,P)$/;"	f
+Complete_destroy	rails.vim	/^function! s:Complete_destroy(A,L,P)$/;"	f
+Complete_edit	rails.vim	/^function! s:Complete_edit(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_environments	rails.vim	/^function! s:Complete_environments(...)$/;"	f
+Complete_find	rails.vim	/^function! s:Complete_find(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_generate	rails.vim	/^function! s:Complete_generate(A,L,P)$/;"	f
+Complete_preview	rails.vim	/^function! s:Complete_preview(A,L,P)$/;"	f
+Complete_rake	rails.vim	/^function! s:Complete_rake(A,L,P)$/;"	f
+Complete_related	rails.vim	/^function! s:Complete_related(A,L,P)$/;"	f
+Complete_ruby	rails.vim	/^function! s:Complete_ruby(A,L,P)$/;"	f
+Complete_script	rails.vim	/^function! s:Complete_script(ArgLead,CmdLine,P)$/;"	f
+Complete_server	rails.vim	/^function! s:Complete_server(A,L,P)$/;"	f
+Complete_set	rails.vim	/^function! s:Complete_set(A,L,P)$/;"	f
+CustomComplete	rails.vim	/^function! s:CustomComplete(A,L,P,cmd)$/;"	f
+DisplayIncludeTree	omni/cpp/includes.vim	/^function! s:DisplayIncludeTree(szFilePath, indent, ...)$/;"	f
+Doc	rails.vim	/^function! s:Doc(bang, string)$/;"	f
+Edit	rails.vim	/^function! s:Edit(count,cmd,...)$/;"	f
+EditSimpleRb	rails.vim	/^function! s:EditSimpleRb(cmd,name,target,prefix,suffix,...)$/;"	f
+Executor	l9/async.py	/^class Executor:$/;"	c	inherits:
+ExtendTagItemToPopupItem	omni/cpp/complete.vim	/^function! s:ExtendTagItemToPopupItem(tagItem, szTypeName)$/;"	f
+Extract	rails.vim	/^function! s:Extract(bang,...) range abort$/;"	f
+ExtractScopeFromTypeInfo	omni/cpp/utils.vim	/^function! s:ExtractScopeFromTypeInfo(szTypeInfo)$/;"	f
+ExtractTypeInfoFromDecl	omni/cpp/items.vim	/^function! s:ExtractTypeInfoFromDecl(tokens)$/;"	f
+FilterClassMembers	omni/cpp/complete.vim	/^function! s:FilterClassMembers(tagPopupList, szAccessFilter)$/;"	f
+FilterClassScopeMembers	omni/cpp/complete.vim	/^function! s:FilterClassScopeMembers(tagPopupList, szAccessFilter)$/;"	f
+FilterNamespaceScopeMembers	omni/cpp/complete.vim	/^function! s:FilterNamespaceScopeMembers(tagPopupList)$/;"	f
+FilterOverloadedFunctions	omni/cpp/complete.vim	/^function! s:FilterOverloadedFunctions(tagPopupList)$/;"	f
+FilterStaticClassMembers	omni/cpp/complete.vim	/^function! s:FilterStaticClassMembers(tagPopupList, szAccessFilter)$/;"	f
+Find	rails.vim	/^function! s:Find(count,cmd,...)$/;"	f
+FindStartPositionOfCompletion	omni/cpp/complete.vim	/^function! s:FindStartPositionOfCompletion()$/;"	f
+FufGlobal	fuf.vim	/^augroup FufGlobal$/;"	a
+GetAccessFilter	omni/cpp/complete.vim	/^function! s:GetAccessFilter(szFilter, szAccessFilter)$/;"	f
+GetAllUsingNamespaceMapFromCurrentBuffer	omni/cpp/namespaces.vim	/^function! s:GetAllUsingNamespaceMapFromCurrentBuffer(...)$/;"	f
+GetAllUsingNamespaceMapFromFile	omni/cpp/namespaces.vim	/^function! s:GetAllUsingNamespaceMapFromFile(szFilePath, ...)$/;"	f
+GetClassScopeAtCursor	omni/cpp/namespaces.vim	/^function! s:GetClassScopeAtCursor()$/;"	f
+GetIncludeListFromCurrentBuffer	omni/cpp/includes.vim	/^function! s:GetIncludeListFromCurrentBuffer()$/;"	f
+GetIncludeListFromFile	omni/cpp/includes.vim	/^function! s:GetIncludeListFromFile(szFilePath, bUpdate) $/;"	f
+GetNamespaceAliasListFromLine	omni/cpp/namespaces.vim	/^function! s:GetNamespaceAliasListFromLine(szLine)$/;"	f
+GetNamespaceAliasMap	omni/cpp/namespaces.vim	/^function! s:GetNamespaceAliasMap()$/;"	f
+GetNamespaceListFromLine	omni/cpp/namespaces.vim	/^function! s:GetNamespaceListFromLine(szLine)$/;"	f
+GetStopPositionForLocalSearch	omni/cpp/namespaces.vim	/^function! s:GetStopPositionForLocalSearch()$/;"	f
+GetSymbol	omni/cpp/items.vim	/^function! s:GetSymbol(tokens)$/;"	f
+GetTagOfSameScope	omni/cpp/utils.vim	/^function! s:GetTagOfSameScope(listTags, szScopeToMatch)$/;"	f
+GetTypeInfoOfReturnedType	omni/cpp/items.vim	/^function! s:GetTypeInfoOfReturnedType(contextStack, szFunctionName)$/;"	f
+GetTypeInfoOfVariable	omni/cpp/items.vim	/^function! s:GetTypeInfoOfVariable(contextStack, szVariable, bSearchDecl)$/;"	f
+GetUsingNamespaceListFromMap	omni/cpp/namespaces.vim	/^function! s:GetUsingNamespaceListFromMap(namespaceMap, ...)$/;"	f
+HasATagFileOrTagEnvChanged	omni/cpp/complete.vim	/^function! s:HasATagFileOrTagEnvChanged()$/;"	f
+HasTagEnvChanged	omni/cpp/complete.vim	/^function! s:HasTagEnvChanged()$/;"	f
+HiDefaults	rails.vim	/^function! s:HiDefaults()$/;"	f
+InitComplete	omni/cpp/complete.vim	/^function! s:InitComplete()$/;"	f
+Invert	rails.vim	/^function! s:Invert(bang)$/;"	f
+IsCached	omni/cpp/complete.vim	/^function! s:IsCached(cache, szKey1, szKey2)$/;"	f
+IsTypeInfoResolved	omni/cpp/utils.vim	/^function! s:IsTypeInfoResolved(szTypeInfo)$/;"	f
+IsUnnamedType	omni/cpp/items.vim	/^function! s:IsUnnamedType(tagItem)$/;"	f
+LocalModelines	rails.vim	/^function! s:LocalModelines(lnum)$/;"	f
+LocalSearchDecl	omni/cpp/items.vim	/^function! s:LocalSearchDecl(name)$/;"	f
+Log	rails.vim	/^function! s:Log(bang,arg)$/;"	f
+Navcommand	rails.vim	/^function! s:Navcommand(bang,...)$/;"	f
+Preview	rails.vim	/^function! s:Preview(bang,lnum,arg)$/;"	f
+Queue	l9/async.py	/^import Queue$/;"	i
+RailsBufInit	rails.vim	/^function! RailsBufInit(path)$/;"	f
+RailsFile	rails.vim	/^function! RailsFile()$/;"	f
+RailsFilePath	rails.vim	/^function! RailsFilePath()$/;"	f
+RailsFileType	rails.vim	/^function! RailsFileType()$/;"	f
+RailsFind	rails.vim	/^function! s:RailsFind()$/;"	f
+RailsHelpCommand	rails.vim	/^function! RailsHelpCommand(...)$/;"	f
+RailsIncludeexpr	rails.vim	/^function! RailsIncludeexpr()$/;"	f
+RailsIncludefind	rails.vim	/^function! s:RailsIncludefind(str,...)$/;"	f
+RailsNamedRoutes	rails.vim	/^function! RailsNamedRoutes()$/;"	f
+RailsRevision	rails.vim	/^function! RailsRevision()$/;"	f
+RailsRoot	rails.vim	/^function! RailsRoot()$/;"	f
+Rake	rails.vim	/^function! s:Rake(bang,lnum,arg)$/;"	f
+Refresh	rails.vim	/^function! s:Refresh(bang)$/;"	f
+RefreshBuffer	rails.vim	/^function! s:RefreshBuffer()$/;"	f
+Related	rails.vim	/^function! s:Related(cmd,line1,line2,count,...)$/;"	f
+RemoveCComments	omni/cpp/utils.vim	/^function! s:RemoveCComments(szLine)$/;"	f
+ResolveAliasInNamespaceList	omni/cpp/namespaces.vim	/^function! s:ResolveAliasInNamespaceList(mapNamespaceAlias, listNamespaces)$/;"	f
+ResolveAliasKey	omni/cpp/namespaces.vim	/^function! s:ResolveAliasKey(mapNamespaceAlias, szAlias)$/;"	f
+ResolveAliasKeys	omni/cpp/namespaces.vim	/^function! s:ResolveAliasKeys(mapNamespaceAlias)$/;"	f
+ResolveCCast	omni/cpp/items.vim	/^function! s:ResolveCCast(tokens)$/;"	f
+ResolveCast	omni/cpp/items.vim	/^function! s:ResolveCast(tokens, startChar, endChar)$/;"	f
+ResolveCppCast	omni/cpp/items.vim	/^function! s:ResolveCppCast(tokens)$/;"	f
+ResolveNamespace	omni/cpp/namespaces.vim	/^function! s:ResolveNamespace(namespace, mapCurrentContexts)$/;"	f
+ResolveSymbol	omni/cpp/items.vim	/^function! s:ResolveSymbol(contextStack, szSymbol, szTagFilter)$/;"	f
+SearchDecl	omni/cpp/items.vim	/^function! s:SearchDecl(szVariable)$/;"	f
+SearchGlobalMembers	omni/cpp/complete.vim	/^function! s:SearchGlobalMembers(szBase)$/;"	f
+SearchMembers	omni/cpp/complete.vim	/^function! s:SearchMembers(resolvedTagItem, szBase)$/;"	f
+SearchTypeInfoOfDecl	omni/cpp/items.vim	/^function! s:SearchTypeInfoOfDecl(szVariable)$/;"	f
+Set	rails.vim	/^function! s:Set(bang,...)$/;"	f
+SetBasePath	rails.vim	/^function! s:SetBasePath()$/;"	f
+TagPopupList	omni/cpp/complete.vim	/^function! s:TagPopupList(szTypeName, szBase)$/;"	f
+TheCWord	rails.vim	/^function! s:TheCWord()$/;"	f
+TokensToString	omni/cpp/items.vim	/^function! s:TokensToString(tokens)$/;"	f
+Worker	l9/async.py	/^class Worker(threading.Thread):$/;"	c	inherits:threading.Thread
+__init__	l9/async.py	/^    def __init__(self):$/;"	m	class:Asyncer	access:public
+__init__	l9/async.py	/^    def __init__(self):$/;"	m	class:Worker	access:public
+__init__	l9/async.py	/^    def __init__(self, command, cwd, input, appends):$/;"	m	class:Executor	access:public
+acp#completeSnipmate	acp.vim	/^function acp#completeSnipmate(findstart, base)$/;"	f
+acp#disable	acp.vim	/^function acp#disable()$/;"	f
+acp#enable	acp.vim	/^function acp#enable()$/;"	f
+acp#lock	acp.vim	/^function acp#lock()$/;"	f
+acp#meetsForCssOmni	acp.vim	/^function acp#meetsForCssOmni(context)$/;"	f
+acp#meetsForFile	acp.vim	/^function acp#meetsForFile(context)$/;"	f
+acp#meetsForHtmlOmni	acp.vim	/^function acp#meetsForHtmlOmni(context)$/;"	f
+acp#meetsForKeyword	acp.vim	/^function acp#meetsForKeyword(context)$/;"	f
+acp#meetsForPerlOmni	acp.vim	/^function acp#meetsForPerlOmni(context)$/;"	f
+acp#meetsForPythonOmni	acp.vim	/^function acp#meetsForPythonOmni(context)$/;"	f
+acp#meetsForRubyOmni	acp.vim	/^function acp#meetsForRubyOmni(context)$/;"	f
+acp#meetsForSnipmate	acp.vim	/^function acp#meetsForSnipmate(context)$/;"	f
+acp#meetsForXmlOmni	acp.vim	/^function acp#meetsForXmlOmni(context)$/;"	f
+acp#onBs	acp.vim	/^function acp#onBs()$/;"	f
+acp#onPopupCloseSnipmate	acp.vim	/^function acp#onPopupCloseSnipmate()$/;"	f
+acp#onPopupPost	acp.vim	/^function acp#onPopupPost()$/;"	f
+acp#unlock	acp.vim	/^function acp#unlock()$/;"	f
+activateFufBuffer	fuf.vim	/^function s:activateFufBuffer()$/;"	f
+add_methods	rails.vim	/^function! s:add_methods(namespace, method_names)$/;"	f
+addfilecmds	rails.vim	/^function! s:addfilecmds(type)$/;"	f
+app_background_script_command	rails.vim	/^function! s:app_background_script_command(cmd) dict abort$/;"	f
+app_dbext_settings	rails.vim	/^function! s:app_dbext_settings(environment) dict$/;"	f
+app_default_locale	rails.vim	/^function! s:app_default_locale() dict abort$/;"	f
+app_destroy_command	rails.vim	/^function! s:app_destroy_command(bang,...) dict$/;"	f
+app_environments	rails.vim	/^function! s:app_environments() dict$/;"	f
+app_eval	rails.vim	/^function! s:app_eval(ruby,...) dict abort$/;"	f
+app_execute_script_command	rails.vim	/^function! s:app_execute_script_command(cmd) dict abort$/;"	f
+app_file	rails.vim	/^function! s:app_file(name)$/;"	f
+app_find_file	rails.vim	/^function! s:app_find_file(name, ...) dict abort$/;"	f
+app_generate_command	rails.vim	/^function! s:app_generate_command(bang,...) dict$/;"	f
+app_generators	rails.vim	/^function! s:app_generators() dict$/;"	f
+app_has	rails.vim	/^function! s:app_has(feature) dict$/;"	f
+app_has_file	rails.vim	/^function! s:app_has_file(file) dict$/;"	f
+app_lightweight_ruby_eval	rails.vim	/^function! s:app_lightweight_ruby_eval(ruby,...) dict abort$/;"	f
+app_migration	rails.vim	/^function! s:app_migration(file) dict$/;"	f
+app_named_route_file	rails.vim	/^function! s:app_named_route_file(route) dict$/;"	f
+app_path	rails.vim	/^function! s:app_path(...) dict$/;"	f
+app_rake_tasks	rails.vim	/^function! s:app_rake_tasks() dict$/;"	f
+app_relglob	rails.vim	/^function! s:app_relglob(path,glob,...) dict$/;"	f
+app_route_names	rails.vim	/^function! s:app_route_names() dict$/;"	f
+app_ruby_shell_command	rails.vim	/^function! s:app_ruby_shell_command(cmd) dict abort$/;"	f
+app_runner_command	rails.vim	/^function! s:app_runner_command(count,args) dict$/;"	f
+app_script_command	rails.vim	/^function! s:app_script_command(bang,...) dict$/;"	f
+app_script_shell_command	rails.vim	/^function! s:app_script_shell_command(cmd) dict abort$/;"	f
+app_server_command	rails.vim	/^function! s:app_server_command(bang,arg) dict$/;"	f
+app_source_callback	rails.vim	/^function! s:app_source_callback(file) dict$/;"	f
+app_tags_command	rails.vim	/^function! s:app_tags_command() dict$/;"	f
+app_test_suites	rails.vim	/^function! s:app_test_suites() dict$/;"	f
+app_user_assertions	rails.vim	/^function! s:app_user_assertions() dict$/;"	f
+app_user_classes	rails.vim	/^function! s:app_user_classes() dict$/;"	f
+autocamelize	rails.vim	/^function! s:autocamelize(files,test)$/;"	f
+bookmark	fuf/bookmarkdir.vim	/^function s:bookmark(word)$/;"	f
+bookmarkHere	fuf/bookmarkfile.vim	/^function s:bookmarkHere(word)$/;"	f
+buffer_app	rails.vim	/^function! s:buffer_app() dict abort$/;"	f
+buffer_getline	rails.vim	/^function! s:buffer_getline(...) dict abort$/;"	f
+buffer_getvar	rails.vim	/^function! s:buffer_getvar(varname) dict abort$/;"	f
+buffer_lines	rails.vim	/^function! s:buffer_lines() dict abort$/;"	f
+buffer_name	rails.vim	/^function! s:buffer_name() dict abort$/;"	f
+buffer_number	rails.vim	/^function! s:buffer_number() dict abort$/;"	f
+buffer_path	rails.vim	/^function! s:buffer_path() dict abort$/;"	f
+buffer_setvar	rails.vim	/^function! s:buffer_setvar(varname, val) dict abort$/;"	f
+buffer_type_name	rails.vim	/^function! s:buffer_type_name(...) dict abort$/;"	f
+cache_clear	rails.vim	/^function! s:cache_clear(...) dict$/;"	f
+cache_get	rails.vim	/^function! s:cache_get(...) dict$/;"	f
+cache_has	rails.vim	/^function! s:cache_has(key) dict$/;"	f
+cache_needs	rails.vim	/^function! s:cache_needs(key) dict$/;"	f
+cache_set	rails.vim	/^function! s:cache_set(key,value) dict$/;"	f
+changeCoverage	fuf/coveragefile.vim	/^function s:changeCoverage(name)$/;"	f
+checkDataFileCompatibility	fuf.vim	/^function s:checkDataFileCompatibility()$/;"	f
+checkKey	l9/async.vim	/^function s:checkKey(key)$/;"	f
+clear_outputs	l9/async.py	/^    def clear_outputs(self):$/;"	m	class:Worker	access:public
+compact	rails.vim	/^function! s:compact(ary)$/;"	f
+compareTimeDescending	fuf/buffer.vim	/^function s:compareTimeDescending(i1, i2)$/;"	f
+completion_filter	rails.vim	/^function! s:completion_filter(results,A)$/;"	f
+controller	rails.vim	/^function! s:controller(...)$/;"	f
+controllerEdit	rails.vim	/^function! s:controllerEdit(cmd,...)$/;"	f
+controllerList	rails.vim	/^function! s:controllerList(A,L,P)$/;"	f
+copy_outputs	l9/async.py	/^    def copy_outputs(self):$/;"	m	class:Worker	access:public
+createChangeCoverageListener	fuf/coveragefile.vim	/^function s:createChangeCoverageListener()$/;"	f
+createDataBufferListener	fuf.vim	/^function s:createDataBufferListener(dataFile)$/;"	f
+createEditDataListener	fuf.vim	/^function s:createEditDataListener()$/;"	f
+deactivateFufBuffer	fuf.vim	/^function s:deactivateFufBuffer()$/;"	f
+debug	rails.vim	/^function! s:debug(str)$/;"	f
+djump	rails.vim	/^function! s:djump(def)$/;"	f
+edit	rails.vim	/^function! s:edit(cmd,file,...)$/;"	f
+editcmdfor	rails.vim	/^function! s:editcmdfor(cmd)$/;"	f
+endof	rails.vim	/^function! s:endof(lnum)$/;"	f
+enumHelpTags	fuf/help.vim	/^function s:enumHelpTags(tagFiles)$/;"	f
+enumItems	fuf/callbackfile.vim	/^function s:enumItems(dir)$/;"	f
+enumItems	fuf/coveragefile.vim	/^function s:enumItems()$/;"	f
+enumItems	fuf/dir.vim	/^function s:enumItems(dir)$/;"	f
+enumItems	fuf/file.vim	/^function s:enumItems(dir)$/;"	f
+enumNonCurrentItems	fuf/file.vim	/^function s:enumNonCurrentItems(dir, bufNrPrev, cache)$/;"	f
+enumTaggedFiles	fuf/taggedfile.vim	/^function s:enumTaggedFiles(tagFiles)$/;"	f
+enumTags	fuf/tag.vim	/^function s:enumTags(tagFiles)$/;"	f
+environment	rails.vim	/^function! s:environment()$/;"	f
+environmentEdit	rails.vim	/^function! s:environmentEdit(cmd,...)$/;"	f
+environmentList	rails.vim	/^function! s:environmentList(A,L,P)$/;"	f
+error	rails.vim	/^function! s:error(str)$/;"	f
+escarg	rails.vim	/^function! s:escarg(p)$/;"	f
+esccmd	rails.vim	/^function! s:esccmd(p)$/;"	f
+evaluateLearningRank	fuf.vim	/^function s:evaluateLearningRank(word, stats)$/;"	f
+execute	l9/async.py	/^    def execute(self, var_key, var_command, var_cwd, var_input, var_appends):$/;"	m	class:Asyncer	access:public
+execute	l9/async.py	/^    def execute(self, worker):$/;"	m	class:Executor	access:public
+expandAbbrevMap	fuf.vim	/^function s:expandAbbrevMap(pattern, abbrevMap)$/;"	f
+expandSearchDir	fuf/mrufile.vim	/^function s:expandSearchDir(dir, level)$/;"	f
+extendNamespaces	omni/cpp/namespaces.vim	/^function! s:extendNamespaces(namespaces, namespaceList)$/;"	f
+extractdbvar	rails.vim	/^function! s:extractdbvar(str,arg)$/;"	f
+feedPopup	acp.vim	/^function s:feedPopup()$/;"	f
+file_getline	rails.vim	/^function! s:file_getline(lnum,...) dict abort$/;"	f
+file_lines	rails.vim	/^function! s:file_lines() dict abort$/;"	f
+file_name	rails.vim	/^function! s:file_name() dict abort$/;"	f
+file_path	rails.vim	/^function! s:file_path() dict abort$/;"	f
+findItem	fuf/bookmarkdir.vim	/^function s:findItem(items, word)$/;"	f
+findItem	fuf/bookmarkfile.vim	/^function s:findItem(items, word)$/;"	f
+findItem	fuf/buffer.vim	/^function s:findItem(items, word)$/;"	f
+findamethod	rails.vim	/^function! s:findamethod(func,repl)$/;"	f
+findasymbol	rails.vim	/^function! s:findasymbol(sym,repl)$/;"	f
+findcmdfor	rails.vim	/^function! s:findcmdfor(cmd)$/;"	f
+findedit	rails.vim	/^function! s:findedit(cmd,files,...) abort$/;"	f
+findfromview	rails.vim	/^function! s:findfromview(func,repl)$/;"	f
+findit	rails.vim	/^function! s:findit(pat,repl)$/;"	f
+findlayout	rails.vim	/^function! s:findlayout(name)$/;"	f
+findview	rails.vim	/^function! s:findview(name)$/;"	f
+finishPopup	acp.vim	/^function s:finishPopup(fGroup1)$/;"	f
+fixturesEdit	rails.vim	/^function! s:fixturesEdit(cmd,...)$/;"	f
+fixturesList	rails.vim	/^function! s:fixturesList(A,L,P)$/;"	f
+format	rails.vim	/^function! s:format(...)$/;"	f
+formatItemUsingCache	fuf/mrufile.vim	/^function s:formatItemUsingCache(item)$/;"	f
+fuf#addMode	fuf.vim	/^function fuf#addMode(modeName)$/;"	f
+fuf#bookmarkdir#createHandler	fuf/bookmarkdir.vim	/^function fuf#bookmarkdir#createHandler(base)$/;"	f
+fuf#bookmarkdir#getEditableDataNames	fuf/bookmarkdir.vim	/^function fuf#bookmarkdir#getEditableDataNames()$/;"	f
+fuf#bookmarkdir#getSwitchOrder	fuf/bookmarkdir.vim	/^function fuf#bookmarkdir#getSwitchOrder()$/;"	f
+fuf#bookmarkdir#onInit	fuf/bookmarkdir.vim	/^function fuf#bookmarkdir#onInit()$/;"	f
+fuf#bookmarkdir#renewCache	fuf/bookmarkdir.vim	/^function fuf#bookmarkdir#renewCache()$/;"	f
+fuf#bookmarkdir#requiresOnCommandPre	fuf/bookmarkdir.vim	/^function fuf#bookmarkdir#requiresOnCommandPre()$/;"	f
+fuf#bookmarkfile#createHandler	fuf/bookmarkfile.vim	/^function fuf#bookmarkfile#createHandler(base)$/;"	f
+fuf#bookmarkfile#getEditableDataNames	fuf/bookmarkfile.vim	/^function fuf#bookmarkfile#getEditableDataNames()$/;"	f
+fuf#bookmarkfile#getSwitchOrder	fuf/bookmarkfile.vim	/^function fuf#bookmarkfile#getSwitchOrder()$/;"	f
+fuf#bookmarkfile#onInit	fuf/bookmarkfile.vim	/^function fuf#bookmarkfile#onInit()$/;"	f
+fuf#bookmarkfile#renewCache	fuf/bookmarkfile.vim	/^function fuf#bookmarkfile#renewCache()$/;"	f
+fuf#bookmarkfile#requiresOnCommandPre	fuf/bookmarkfile.vim	/^function fuf#bookmarkfile#requiresOnCommandPre()$/;"	f
+fuf#buffer#createHandler	fuf/buffer.vim	/^function fuf#buffer#createHandler(base)$/;"	f
+fuf#buffer#getEditableDataNames	fuf/buffer.vim	/^function fuf#buffer#getEditableDataNames()$/;"	f
+fuf#buffer#getSwitchOrder	fuf/buffer.vim	/^function fuf#buffer#getSwitchOrder()$/;"	f
+fuf#buffer#onInit	fuf/buffer.vim	/^function fuf#buffer#onInit()$/;"	f
+fuf#buffer#renewCache	fuf/buffer.vim	/^function fuf#buffer#renewCache()$/;"	f
+fuf#buffer#requiresOnCommandPre	fuf/buffer.vim	/^function fuf#buffer#requiresOnCommandPre()$/;"	f
+fuf#buffertag#createHandler	fuf/buffertag.vim	/^function fuf#buffertag#createHandler(base)$/;"	f
+fuf#buffertag#getEditableDataNames	fuf/buffertag.vim	/^function fuf#buffertag#getEditableDataNames()$/;"	f
+fuf#buffertag#getSwitchOrder	fuf/buffertag.vim	/^function fuf#buffertag#getSwitchOrder()$/;"	f
+fuf#buffertag#onInit	fuf/buffertag.vim	/^function fuf#buffertag#onInit()$/;"	f
+fuf#buffertag#renewCache	fuf/buffertag.vim	/^function fuf#buffertag#renewCache()$/;"	f
+fuf#buffertag#requiresOnCommandPre	fuf/buffertag.vim	/^function fuf#buffertag#requiresOnCommandPre()$/;"	f
+fuf#callbackfile#createHandler	fuf/callbackfile.vim	/^function fuf#callbackfile#createHandler(base)$/;"	f
+fuf#callbackfile#getEditableDataNames	fuf/callbackfile.vim	/^function fuf#callbackfile#getEditableDataNames()$/;"	f
+fuf#callbackfile#getSwitchOrder	fuf/callbackfile.vim	/^function fuf#callbackfile#getSwitchOrder()$/;"	f
+fuf#callbackfile#launch	fuf/callbackfile.vim	/^function fuf#callbackfile#launch(initialPattern, partialMatching, prompt, exclude, listener)$/;"	f
+fuf#callbackfile#onInit	fuf/callbackfile.vim	/^function fuf#callbackfile#onInit()$/;"	f
+fuf#callbackfile#renewCache	fuf/callbackfile.vim	/^function fuf#callbackfile#renewCache()$/;"	f
+fuf#callbackfile#requiresOnCommandPre	fuf/callbackfile.vim	/^function fuf#callbackfile#requiresOnCommandPre()$/;"	f
+fuf#callbackitem#createHandler	fuf/callbackitem.vim	/^function fuf#callbackitem#createHandler(base)$/;"	f
+fuf#callbackitem#getEditableDataNames	fuf/callbackitem.vim	/^function fuf#callbackitem#getEditableDataNames()$/;"	f
+fuf#callbackitem#getSwitchOrder	fuf/callbackitem.vim	/^function fuf#callbackitem#getSwitchOrder()$/;"	f
+fuf#callbackitem#launch	fuf/callbackitem.vim	/^function fuf#callbackitem#launch(initialPattern, partialMatching, prompt, listener, items, forPath)$/;"	f
+fuf#callbackitem#onInit	fuf/callbackitem.vim	/^function fuf#callbackitem#onInit()$/;"	f
+fuf#callbackitem#renewCache	fuf/callbackitem.vim	/^function fuf#callbackitem#renewCache()$/;"	f
+fuf#callbackitem#requiresOnCommandPre	fuf/callbackitem.vim	/^function fuf#callbackitem#requiresOnCommandPre()$/;"	f
+fuf#changelist#createHandler	fuf/changelist.vim	/^function fuf#changelist#createHandler(base)$/;"	f
+fuf#changelist#getEditableDataNames	fuf/changelist.vim	/^function fuf#changelist#getEditableDataNames()$/;"	f
+fuf#changelist#getSwitchOrder	fuf/changelist.vim	/^function fuf#changelist#getSwitchOrder()$/;"	f
+fuf#changelist#onInit	fuf/changelist.vim	/^function fuf#changelist#onInit()$/;"	f
+fuf#changelist#renewCache	fuf/changelist.vim	/^function fuf#changelist#renewCache()$/;"	f
+fuf#changelist#requiresOnCommandPre	fuf/changelist.vim	/^function fuf#changelist#requiresOnCommandPre()$/;"	f
+fuf#compareRanks	fuf.vim	/^function fuf#compareRanks(i1, i2)$/;"	f
+fuf#countModifiedFiles	fuf.vim	/^function fuf#countModifiedFiles(files, time)$/;"	f
+fuf#coveragefile#createHandler	fuf/coveragefile.vim	/^function fuf#coveragefile#createHandler(base)$/;"	f
+fuf#coveragefile#getEditableDataNames	fuf/coveragefile.vim	/^function fuf#coveragefile#getEditableDataNames()$/;"	f
+fuf#coveragefile#getSwitchOrder	fuf/coveragefile.vim	/^function fuf#coveragefile#getSwitchOrder()$/;"	f
+fuf#coveragefile#onInit	fuf/coveragefile.vim	/^function fuf#coveragefile#onInit()$/;"	f
+fuf#coveragefile#renewCache	fuf/coveragefile.vim	/^function fuf#coveragefile#renewCache()$/;"	f
+fuf#coveragefile#requiresOnCommandPre	fuf/coveragefile.vim	/^function fuf#coveragefile#requiresOnCommandPre()$/;"	f
+fuf#defineKeyMappingInHandler	fuf.vim	/^function fuf#defineKeyMappingInHandler(key, func)$/;"	f
+fuf#defineLaunchCommand	fuf.vim	/^function fuf#defineLaunchCommand(CmdName, modeName, prefixInitialPattern, tempVars)$/;"	f
+fuf#dir#createHandler	fuf/dir.vim	/^function fuf#dir#createHandler(base)$/;"	f
+fuf#dir#getEditableDataNames	fuf/dir.vim	/^function fuf#dir#getEditableDataNames()$/;"	f
+fuf#dir#getSwitchOrder	fuf/dir.vim	/^function fuf#dir#getSwitchOrder()$/;"	f
+fuf#dir#onInit	fuf/dir.vim	/^function fuf#dir#onInit()$/;"	f
+fuf#dir#renewCache	fuf/dir.vim	/^function fuf#dir#renewCache()$/;"	f
+fuf#dir#requiresOnCommandPre	fuf/dir.vim	/^function fuf#dir#requiresOnCommandPre()$/;"	f
+fuf#echoError	fuf.vim	/^function fuf#echoError(msg)$/;"	f
+fuf#echoWarning	fuf.vim	/^function fuf#echoWarning(msg)$/;"	f
+fuf#editDataFile	fuf.vim	/^function fuf#editDataFile()$/;"	f
+fuf#enumExpandedDirsEntries	fuf.vim	/^function fuf#enumExpandedDirsEntries(dir, exclude)$/;"	f
+fuf#expandTailDotSequenceToParentDir	fuf.vim	/^function fuf#expandTailDotSequenceToParentDir(pattern)$/;"	f
+fuf#file#createHandler	fuf/file.vim	/^function fuf#file#createHandler(base)$/;"	f
+fuf#file#getEditableDataNames	fuf/file.vim	/^function fuf#file#getEditableDataNames()$/;"	f
+fuf#file#getSwitchOrder	fuf/file.vim	/^function fuf#file#getSwitchOrder()$/;"	f
+fuf#file#onInit	fuf/file.vim	/^function fuf#file#onInit()$/;"	f
+fuf#file#renewCache	fuf/file.vim	/^function fuf#file#renewCache()$/;"	f
+fuf#file#requiresOnCommandPre	fuf/file.vim	/^function fuf#file#requiresOnCommandPre()$/;"	f
+fuf#formatPrompt	fuf.vim	/^function fuf#formatPrompt(prompt, partialMatching, otherString)$/;"	f
+fuf#getCurrentTagFiles	fuf.vim	/^function fuf#getCurrentTagFiles()$/;"	f
+fuf#getDataFileTime	fuf.vim	/^function fuf#getDataFileTime(modeName, dataName)$/;"	f
+fuf#getFileLines	fuf.vim	/^function fuf#getFileLines(file)$/;"	f
+fuf#getModeNames	fuf.vim	/^function fuf#getModeNames()$/;"	f
+fuf#getRunningHandler	fuf.vim	/^function fuf#getRunningHandler()$/;"	f
+fuf#givencmd#createHandler	fuf/givencmd.vim	/^function fuf#givencmd#createHandler(base)$/;"	f
+fuf#givencmd#getEditableDataNames	fuf/givencmd.vim	/^function fuf#givencmd#getEditableDataNames()$/;"	f
+fuf#givencmd#getSwitchOrder	fuf/givencmd.vim	/^function fuf#givencmd#getSwitchOrder()$/;"	f
+fuf#givencmd#launch	fuf/givencmd.vim	/^function fuf#givencmd#launch(initialPattern, partialMatching, prompt, items)$/;"	f
+fuf#givencmd#onInit	fuf/givencmd.vim	/^function fuf#givencmd#onInit()$/;"	f
+fuf#givencmd#renewCache	fuf/givencmd.vim	/^function fuf#givencmd#renewCache()$/;"	f
+fuf#givencmd#requiresOnCommandPre	fuf/givencmd.vim	/^function fuf#givencmd#requiresOnCommandPre()$/;"	f
+fuf#givendir#createHandler	fuf/givendir.vim	/^function fuf#givendir#createHandler(base)$/;"	f
+fuf#givendir#getEditableDataNames	fuf/givendir.vim	/^function fuf#givendir#getEditableDataNames()$/;"	f
+fuf#givendir#getSwitchOrder	fuf/givendir.vim	/^function fuf#givendir#getSwitchOrder()$/;"	f
+fuf#givendir#launch	fuf/givendir.vim	/^function fuf#givendir#launch(initialPattern, partialMatching, prompt, items)$/;"	f
+fuf#givendir#onInit	fuf/givendir.vim	/^function fuf#givendir#onInit()$/;"	f
+fuf#givendir#renewCache	fuf/givendir.vim	/^function fuf#givendir#renewCache()$/;"	f
+fuf#givendir#requiresOnCommandPre	fuf/givendir.vim	/^function fuf#givendir#requiresOnCommandPre()$/;"	f
+fuf#givenfile#createHandler	fuf/givenfile.vim	/^function fuf#givenfile#createHandler(base)$/;"	f
+fuf#givenfile#getEditableDataNames	fuf/givenfile.vim	/^function fuf#givenfile#getEditableDataNames()$/;"	f
+fuf#givenfile#getSwitchOrder	fuf/givenfile.vim	/^function fuf#givenfile#getSwitchOrder()$/;"	f
+fuf#givenfile#launch	fuf/givenfile.vim	/^function fuf#givenfile#launch(initialPattern, partialMatching, prompt, items)$/;"	f
+fuf#givenfile#onInit	fuf/givenfile.vim	/^function fuf#givenfile#onInit()$/;"	f
+fuf#givenfile#renewCache	fuf/givenfile.vim	/^function fuf#givenfile#renewCache()$/;"	f
+fuf#givenfile#requiresOnCommandPre	fuf/givenfile.vim	/^function fuf#givenfile#requiresOnCommandPre()$/;"	f
+fuf#glob	fuf.vim	/^function fuf#glob(expr)$/;"	f
+fuf#help#createHandler	fuf/help.vim	/^function fuf#help#createHandler(base)$/;"	f
+fuf#help#getEditableDataNames	fuf/help.vim	/^function fuf#help#getEditableDataNames()$/;"	f
+fuf#help#getSwitchOrder	fuf/help.vim	/^function fuf#help#getSwitchOrder()$/;"	f
+fuf#help#onInit	fuf/help.vim	/^function fuf#help#onInit()$/;"	f
+fuf#help#renewCache	fuf/help.vim	/^function fuf#help#renewCache()$/;"	f
+fuf#help#requiresOnCommandPre	fuf/help.vim	/^function fuf#help#requiresOnCommandPre()$/;"	f
+fuf#jumplist#createHandler	fuf/jumplist.vim	/^function fuf#jumplist#createHandler(base)$/;"	f
+fuf#jumplist#getEditableDataNames	fuf/jumplist.vim	/^function fuf#jumplist#getEditableDataNames()$/;"	f
+fuf#jumplist#getSwitchOrder	fuf/jumplist.vim	/^function fuf#jumplist#getSwitchOrder()$/;"	f
+fuf#jumplist#onInit	fuf/jumplist.vim	/^function fuf#jumplist#onInit()$/;"	f
+fuf#jumplist#renewCache	fuf/jumplist.vim	/^function fuf#jumplist#renewCache()$/;"	f
+fuf#jumplist#requiresOnCommandPre	fuf/jumplist.vim	/^function fuf#jumplist#requiresOnCommandPre()$/;"	f
+fuf#launch	fuf.vim	/^function fuf#launch(modeName, initialPattern, partialMatching)$/;"	f
+fuf#line#createHandler	fuf/line.vim	/^function fuf#line#createHandler(base)$/;"	f
+fuf#line#getEditableDataNames	fuf/line.vim	/^function fuf#line#getEditableDataNames()$/;"	f
+fuf#line#getSwitchOrder	fuf/line.vim	/^function fuf#line#getSwitchOrder()$/;"	f
+fuf#line#onInit	fuf/line.vim	/^function fuf#line#onInit()$/;"	f
+fuf#line#renewCache	fuf/line.vim	/^function fuf#line#renewCache()$/;"	f
+fuf#line#requiresOnCommandPre	fuf/line.vim	/^function fuf#line#requiresOnCommandPre()$/;"	f
+fuf#loadDataFile	fuf.vim	/^function fuf#loadDataFile(modeName, dataName)$/;"	f
+fuf#makeNonPathItem	fuf.vim	/^function fuf#makeNonPathItem(word, menu)$/;"	f
+fuf#makePathItem	fuf.vim	/^function fuf#makePathItem(fname, menu, appendsDirSuffix)$/;"	f
+fuf#makePatternSet	fuf.vim	/^function fuf#makePatternSet(patternBase, interpreter, partialMatching)$/;"	f
+fuf#makePreviewLinesAround	fuf.vim	/^function fuf#makePreviewLinesAround(lines, indices, page, maxHeight)$/;"	f
+fuf#makePreviewLinesForFile	fuf.vim	/^function fuf#makePreviewLinesForFile(file, count, maxHeight)$/;"	f
+fuf#mapToSetAbbrWithSnippedWordAsPath	fuf.vim	/^function fuf#mapToSetAbbrWithSnippedWordAsPath(items)$/;"	f
+fuf#mapToSetSerialIndex	fuf.vim	/^function fuf#mapToSetSerialIndex(in, offset)$/;"	f
+fuf#mrucmd#createHandler	fuf/mrucmd.vim	/^function fuf#mrucmd#createHandler(base)$/;"	f
+fuf#mrucmd#getEditableDataNames	fuf/mrucmd.vim	/^function fuf#mrucmd#getEditableDataNames()$/;"	f
+fuf#mrucmd#getSwitchOrder	fuf/mrucmd.vim	/^function fuf#mrucmd#getSwitchOrder()$/;"	f
+fuf#mrucmd#onCommandPre	fuf/mrucmd.vim	/^function fuf#mrucmd#onCommandPre(cmd)$/;"	f
+fuf#mrucmd#onInit	fuf/mrucmd.vim	/^function fuf#mrucmd#onInit()$/;"	f
+fuf#mrucmd#renewCache	fuf/mrucmd.vim	/^function fuf#mrucmd#renewCache()$/;"	f
+fuf#mrucmd#requiresOnCommandPre	fuf/mrucmd.vim	/^function fuf#mrucmd#requiresOnCommandPre()$/;"	f
+fuf#mrufile#createHandler	fuf/mrufile.vim	/^function fuf#mrufile#createHandler(base)$/;"	f
+fuf#mrufile#getEditableDataNames	fuf/mrufile.vim	/^function fuf#mrufile#getEditableDataNames()$/;"	f
+fuf#mrufile#getSwitchOrder	fuf/mrufile.vim	/^function fuf#mrufile#getSwitchOrder()$/;"	f
+fuf#mrufile#onInit	fuf/mrufile.vim	/^function fuf#mrufile#onInit()$/;"	f
+fuf#mrufile#renewCache	fuf/mrufile.vim	/^function fuf#mrufile#renewCache()$/;"	f
+fuf#mrufile#requiresOnCommandPre	fuf/mrufile.vim	/^function fuf#mrufile#requiresOnCommandPre()$/;"	f
+fuf#onComplete	fuf.vim	/^function fuf#onComplete(findstart, base)$/;"	f
+fuf#openBuffer	fuf.vim	/^function fuf#openBuffer(bufNr, mode, reuse)$/;"	f
+fuf#openFile	fuf.vim	/^function fuf#openFile(path, mode, reuse)$/;"	f
+fuf#openHelp	fuf.vim	/^function fuf#openHelp(tag, mode)$/;"	f
+fuf#openTag	fuf.vim	/^function fuf#openTag(tag, mode)$/;"	f
+fuf#prejump	fuf.vim	/^function fuf#prejump(mode)$/;"	f
+fuf#quickfix#createHandler	fuf/quickfix.vim	/^function fuf#quickfix#createHandler(base)$/;"	f
+fuf#quickfix#getEditableDataNames	fuf/quickfix.vim	/^function fuf#quickfix#getEditableDataNames()$/;"	f
+fuf#quickfix#getSwitchOrder	fuf/quickfix.vim	/^function fuf#quickfix#getSwitchOrder()$/;"	f
+fuf#quickfix#onInit	fuf/quickfix.vim	/^function fuf#quickfix#onInit()$/;"	f
+fuf#quickfix#renewCache	fuf/quickfix.vim	/^function fuf#quickfix#renewCache()$/;"	f
+fuf#quickfix#requiresOnCommandPre	fuf/quickfix.vim	/^function fuf#quickfix#requiresOnCommandPre()$/;"	f
+fuf#saveDataFile	fuf.vim	/^function fuf#saveDataFile(modeName, dataName, items)$/;"	f
+fuf#setAbbrWithFormattedWord	fuf.vim	/^function fuf#setAbbrWithFormattedWord(item, abbrIndex)$/;"	f
+fuf#setOneTimeVariables	fuf.vim	/^function fuf#setOneTimeVariables(...)$/;"	f
+fuf#splitPath	fuf.vim	/^function fuf#splitPath(path)$/;"	f
+fuf#suffixNumber	fuf.vim	/^function fuf#suffixNumber(str)$/;"	f
+fuf#tag#createHandler	fuf/tag.vim	/^function fuf#tag#createHandler(base)$/;"	f
+fuf#tag#getEditableDataNames	fuf/tag.vim	/^function fuf#tag#getEditableDataNames()$/;"	f
+fuf#tag#getSwitchOrder	fuf/tag.vim	/^function fuf#tag#getSwitchOrder()$/;"	f
+fuf#tag#onInit	fuf/tag.vim	/^function fuf#tag#onInit()$/;"	f
+fuf#tag#renewCache	fuf/tag.vim	/^function fuf#tag#renewCache()$/;"	f
+fuf#tag#requiresOnCommandPre	fuf/tag.vim	/^function fuf#tag#requiresOnCommandPre()$/;"	f
+fuf#taggedfile#createHandler	fuf/taggedfile.vim	/^function fuf#taggedfile#createHandler(base)$/;"	f
+fuf#taggedfile#getEditableDataNames	fuf/taggedfile.vim	/^function fuf#taggedfile#getEditableDataNames()$/;"	f
+fuf#taggedfile#getSwitchOrder	fuf/taggedfile.vim	/^function fuf#taggedfile#getSwitchOrder()$/;"	f
+fuf#taggedfile#onInit	fuf/taggedfile.vim	/^function fuf#taggedfile#onInit()$/;"	f
+fuf#taggedfile#renewCache	fuf/taggedfile.vim	/^function fuf#taggedfile#renewCache()$/;"	f
+fuf#taggedfile#requiresOnCommandPre	fuf/taggedfile.vim	/^function fuf#taggedfile#requiresOnCommandPre()$/;"	f
+fuf#updateMruList	fuf.vim	/^function fuf#updateMruList(mrulist, newItem, maxItem, exclude)$/;"	f
+function	rails.vim	/^function! s:function(name)$/;"	f
+functionaltestEdit	rails.vim	/^function! s:functionaltestEdit(cmd,...)$/;"	f
+functionaltestList	rails.vim	/^function! s:functionaltestList(A,L,P)$/;"	f
+fuzzyglob	rails.vim	/^function! s:fuzzyglob(arg)$/;"	f
+g:autoloaded_rails	rails.vim	/^let g:autoloaded_rails = '4.4'$/;"	v
+g:loaded_autoload_acp	acp.vim	/^let g:loaded_autoload_acp = 1$/;"	v
+g:loaded_autoload_l9	l9.vim	/^let g:loaded_autoload_l9 = 1$/;"	v
+g:omni#cpp#includes#CACHE_FILE_TIME	omni/cpp/includes.vim	/^let g:omni#cpp#includes#CACHE_FILE_TIME = {}$/;"	v
+g:omni#cpp#includes#CACHE_INCLUDES	omni/cpp/includes.vim	/^let g:omni#cpp#includes#CACHE_INCLUDES = {}$/;"	v
+g:omni#cpp#namespaces#CacheResolve	omni/cpp/namespaces.vim	/^let g:omni#cpp#namespaces#CacheResolve = {}$/;"	v
+g:omni#cpp#namespaces#CacheUsing	omni/cpp/namespaces.vim	/^let g:omni#cpp#namespaces#CacheUsing = {}$/;"	v
+g:omni#cpp#utils#CACHE_TAG_INHERITS	omni/cpp/utils.vim	/^let g:omni#cpp#utils#CACHE_TAG_INHERITS = {}$/;"	v
+g:omni#cpp#utils#szFilterGlobalScope	omni/cpp/utils.vim	/^let g:omni#cpp#utils#szFilterGlobalScope .= "&& (!has_key(v:val, 'enum') || (has_key(v:val, 'enum') && v:val.enum =~ '^\\\\w\\\\+$')))"$/;"	v
+g:omni#cpp#utils#szFilterGlobalScope	omni/cpp/utils.vim	/^let g:omni#cpp#utils#szFilterGlobalScope = "(!has_key(v:val, 'class') && !has_key(v:val, 'struct') && !has_key(v:val, 'union') && !has_key(v:val, 'namespace')"$/;"	v
+getBufIndicator	fuf/buffer.vim	/^function s:getBufIndicator(bufNr)$/;"	f
+getChangesLines	fuf/changelist.vim	/^function s:getChangesLines()$/;"	f
+getCurrentHelpTagFiles	fuf/help.vim	/^function s:getCurrentHelpTagFiles()$/;"	f
+getCurrentText	acp.vim	/^function s:getCurrentText()$/;"	f
+getCurrentWord	acp.vim	/^function s:getCurrentWord()$/;"	f
+getEditableDataFiles	fuf.vim	/^function s:getEditableDataFiles(modeName)$/;"	f
+getFileType	fuf/buffertag.vim	/^function s:getFileType(bufNr)$/;"	f
+getHelpTagEntries	fuf/help.vim	/^function s:getHelpTagEntries(tagFile)$/;"	f
+getJumpsLines	fuf/jumplist.vim	/^function s:getJumpsLines()$/;"	f
+getJumpsLines	fuf/quickfix.vim	/^function s:getJumpsLines()$/;"	f
+getLastBlockLength	fuf.vim	/^function s:getLastBlockLength(pattern, patternIsPath)$/;"	f
+getLinePattern	fuf/bookmarkfile.vim	/^function s:getLinePattern(lnum)$/;"	f
+getMatchingIndex	fuf/help.vim	/^function s:getMatchingIndex(lines, pattern)$/;"	f
+getMatchingIndex	fuf/tag.vim	/^function s:getMatchingIndex(lines, cmd)$/;"	f
+getMatchingLineNumber	fuf/bookmarkfile.vim	/^function s:getMatchingLineNumber(lines, pattern, lnumBegin)$/;"	f
+getMatchingSnipItems	acp.vim	/^function s:getMatchingSnipItems(base)$/;"	f
+getPostText	acp.vim	/^function s:getPostText()$/;"	f
+getSnippedHead	fuf.vim	/^function s:getSnippedHead(head, baseLen)$/;"	f
+getTagData	fuf/buffertag.vim	/^function s:getTagData(bufNrs)$/;"	f
+getTagItems	fuf/buffertag.vim	/^function s:getTagItems(bufNr)$/;"	f
+getTagNames	fuf/tag.vim	/^function s:getTagNames(tagFile)$/;"	f
+getTaggedFileList	fuf/taggedfile.vim	/^function s:getTaggedFileList(tagfile)$/;"	f
+getWordBoundaries	fuf.vim	/^function s:getWordBoundaries(word)$/;"	f
+getopt	rails.vim	/^function! s:getopt(opt,...)$/;"	f
+getpidfor	rails.vim	/^function! s:getpidfor(bind,port)$/;"	f
+go#complete#Package	go/complete.vim	/^function! go#complete#Package(ArgLead, CmdLine, CursorPos)$/;"	f
+go#complete#PackageMembers	go/complete.vim	/^function! go#complete#PackageMembers(package, member)$/;"	f
+gsub	rails.vim	/^function! s:gsub(str,pat,rep)$/;"	f
+handler.getCompleteItems	fuf/bookmarkdir.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/bookmarkfile.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/buffer.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/buffertag.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/callbackfile.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/callbackitem.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/changelist.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/coveragefile.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/dir.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/file.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/givencmd.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/givendir.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/givenfile.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/help.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/jumplist.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/line.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/mrucmd.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/mrufile.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/quickfix.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/tag.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getCompleteItems	fuf/taggedfile.vim	/^function s:handler.getCompleteItems(patternPrimary)$/;"	f
+handler.getModeName	fuf/bookmarkdir.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/bookmarkfile.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/buffer.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/buffertag.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/callbackfile.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/callbackitem.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/changelist.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/coveragefile.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/dir.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/file.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/givencmd.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/givendir.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/givenfile.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/help.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/jumplist.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/line.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/mrucmd.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/mrufile.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/quickfix.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/tag.vim	/^function s:handler.getModeName()$/;"	f
+handler.getModeName	fuf/taggedfile.vim	/^function s:handler.getModeName()$/;"	f
+handler.getPreviewHeight	fuf/bookmarkdir.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/bookmarkfile.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/buffer.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/buffertag.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/callbackfile.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/callbackitem.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/changelist.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/coveragefile.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/dir.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/file.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/givencmd.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/givendir.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/givenfile.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/help.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/jumplist.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/line.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/mrucmd.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/mrufile.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/quickfix.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/tag.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPreviewHeight	fuf/taggedfile.vim	/^function s:handler.getPreviewHeight()$/;"	f
+handler.getPrompt	fuf/bookmarkdir.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/bookmarkfile.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/buffer.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/buffertag.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/callbackfile.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/callbackitem.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/changelist.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/coveragefile.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/dir.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/file.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/givencmd.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/givendir.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/givenfile.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/help.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/jumplist.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/line.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/mrucmd.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/mrufile.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/quickfix.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/tag.vim	/^function s:handler.getPrompt()$/;"	f
+handler.getPrompt	fuf/taggedfile.vim	/^function s:handler.getPrompt()$/;"	f
+handler.isOpenable	fuf/bookmarkdir.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/bookmarkfile.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/buffer.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/buffertag.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/callbackfile.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/callbackitem.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/changelist.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/coveragefile.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/dir.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/file.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/givencmd.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/givendir.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/givenfile.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/help.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/jumplist.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/line.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/mrucmd.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/mrufile.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/quickfix.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/tag.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.isOpenable	fuf/taggedfile.vim	/^function s:handler.isOpenable(enteredPattern)$/;"	f
+handler.makePatternSet	fuf/bookmarkdir.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/bookmarkfile.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/buffer.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/buffertag.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/callbackfile.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/callbackitem.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/changelist.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/coveragefile.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/dir.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/file.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/givencmd.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/givendir.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/givenfile.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/help.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/jumplist.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/line.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/mrucmd.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/mrufile.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/quickfix.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/tag.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePatternSet	fuf/taggedfile.vim	/^function s:handler.makePatternSet(patternBase)$/;"	f
+handler.makePreviewLines	fuf/bookmarkdir.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/bookmarkfile.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/buffer.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/buffertag.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/callbackfile.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/callbackitem.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/changelist.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/coveragefile.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/dir.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/file.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/givencmd.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/givendir.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/givenfile.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/help.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/jumplist.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/line.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/mrucmd.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/mrufile.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/quickfix.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/tag.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.makePreviewLines	fuf/taggedfile.vim	/^function s:handler.makePreviewLines(word, count)$/;"	f
+handler.onModeEnterPost	fuf/bookmarkdir.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/bookmarkfile.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/buffer.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/buffertag.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/callbackfile.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/callbackitem.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/changelist.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/coveragefile.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/dir.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/file.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/givencmd.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/givendir.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/givenfile.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/help.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/jumplist.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/line.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/mrucmd.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/mrufile.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/quickfix.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/tag.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPost	fuf/taggedfile.vim	/^function s:handler.onModeEnterPost()$/;"	f
+handler.onModeEnterPre	fuf/bookmarkdir.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/bookmarkfile.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/buffer.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/buffertag.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/callbackfile.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/callbackitem.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/changelist.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/coveragefile.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/dir.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/file.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/givencmd.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/givendir.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/givenfile.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/help.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/jumplist.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/line.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/mrucmd.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/mrufile.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/quickfix.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/tag.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeEnterPre	fuf/taggedfile.vim	/^function s:handler.onModeEnterPre()$/;"	f
+handler.onModeLeavePost	fuf/bookmarkdir.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/bookmarkfile.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/buffer.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/buffertag.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/callbackfile.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/callbackitem.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/changelist.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/coveragefile.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/dir.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/file.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/givencmd.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/givendir.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/givenfile.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/help.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/jumplist.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/line.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/mrucmd.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/mrufile.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/quickfix.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/tag.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onModeLeavePost	fuf/taggedfile.vim	/^function s:handler.onModeLeavePost(opened)$/;"	f
+handler.onOpen	fuf/bookmarkdir.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/bookmarkfile.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/buffer.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/buffertag.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/callbackfile.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/callbackitem.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/changelist.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/coveragefile.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/dir.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/file.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/givencmd.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/givendir.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/givenfile.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/help.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/jumplist.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/line.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/mrucmd.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/mrufile.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/quickfix.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/tag.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handler.onOpen	fuf/taggedfile.vim	/^function s:handler.onOpen(word, mode)$/;"	f
+handlerBase.addStat	fuf.vim	/^function s:handlerBase.addStat(pattern, word)$/;"	f
+handlerBase.concretize	fuf.vim	/^function s:handlerBase.concretize(deriv)$/;"	f
+handlerBase.existsPrompt	fuf.vim	/^function s:handlerBase.existsPrompt(line)$/;"	f
+handlerBase.getMatchingCompleteItems	fuf.vim	/^function s:handlerBase.getMatchingCompleteItems(patternBase)$/;"	f
+handlerBase.onBs	fuf.vim	/^function s:handlerBase.onBs()$/;"	f
+handlerBase.onComplete	fuf.vim	/^function s:handlerBase.onComplete(findstart, base)$/;"	f
+handlerBase.onCr	fuf.vim	/^function s:handlerBase.onCr(openType)$/;"	f
+handlerBase.onCursorMovedI	fuf.vim	/^function s:handlerBase.onCursorMovedI()$/;"	f
+handlerBase.onDeleteWord	fuf.vim	/^function s:handlerBase.onDeleteWord()$/;"	f
+handlerBase.onInsertLeave	fuf.vim	/^function s:handlerBase.onInsertLeave()$/;"	f
+handlerBase.onPreviewBase	fuf.vim	/^function s:handlerBase.onPreviewBase(repeatable)$/;"	f
+handlerBase.onRecallPattern	fuf.vim	/^function s:handlerBase.onRecallPattern(shift)$/;"	f
+handlerBase.onSwitchMatching	fuf.vim	/^function s:handlerBase.onSwitchMatching()$/;"	f
+handlerBase.onSwitchMode	fuf.vim	/^function s:handlerBase.onSwitchMode(shift)$/;"	f
+handlerBase.removePrompt	fuf.vim	/^function s:handlerBase.removePrompt(line)$/;"	f
+handlerBase.restorePrompt	fuf.vim	/^function s:handlerBase.restorePrompt(line)$/;"	f
+helperEdit	rails.vim	/^function! s:helperEdit(cmd,...)$/;"	f
+helperList	rails.vim	/^function! s:helperList(A,L,P)$/;"	f
+helpermethods	rails.vim	/^function! s:helpermethods()$/;"	f
+highlightError	fuf.vim	/^function s:highlightError()$/;"	f
+highlightPrompt	fuf.vim	/^function s:highlightPrompt(prompt)$/;"	f
+initOpenURL	rails.vim	/^function! s:initOpenURL()$/;"	f
+initializerEdit	rails.vim	/^function! s:initializerEdit(cmd,...)$/;"	f
+initializerList	rails.vim	/^function! s:initializerList(A,L,P)$/;"	f
+integrationtestEdit	rails.vim	/^function! s:integrationtestEdit(cmd,...)$/;"	f
+integrationtestList	rails.vim	/^function! s:integrationtestList(A,L,P)$/;"	f
+interpretPrimaryPatternForNonPath	fuf.vim	/^function s:interpretPrimaryPatternForNonPath(pattern)$/;"	f
+interpretPrimaryPatternForPath	fuf.vim	/^function s:interpretPrimaryPatternForPath(pattern)$/;"	f
+interpretPrimaryPatternForPathTail	fuf.vim	/^function s:interpretPrimaryPatternForPathTail(pattern)$/;"	f
+invertrange	rails.vim	/^function! s:invertrange(beg,end)$/;"	f
+isModifiedSinceLastCall	acp.vim	/^function s:isModifiedSinceLastCall()$/;"	f
+javascriptEdit	rails.vim	/^function! s:javascriptEdit(cmd,...)$/;"	f
+javascriptList	rails.vim	/^function! s:javascriptList(A,L,P)$/;"	f
+jumpToBookmark	fuf/bookmarkfile.vim	/^function s:jumpToBookmark(path, mode, pattern, lnum)$/;"	f
+jumpToTag	fuf/buffertag.vim	/^function s:jumpToTag(item, mode)$/;"	f
+l9#async#execute	l9/async.vim	/^function l9#async#execute(key, cmd, cwd, input, appends)$/;"	f
+l9#async#listActiveWorkers	l9/async.vim	/^function l9#async#listActiveWorkers()$/;"	f
+l9#async#listWorkers	l9/async.vim	/^function l9#async#listWorkers()$/;"	f
+l9#async#read	l9/async.vim	/^function l9#async#read(key)$/;"	f
+l9#completeForInputHl	l9.vim	/^function l9#completeForInputHl(lead, line, pos)$/;"	f
+l9#concat	l9.vim	/^function l9#concat(items)$/;"	f
+l9#concatPaths	l9.vim	/^function l9#concatPaths(paths)$/;"	f
+l9#convertWildcardToRegexp	l9.vim	/^function l9#convertWildcardToRegexp(expr)$/;"	f
+l9#defineVariableDefault	l9.vim	/^function l9#defineVariableDefault(name, default)$/;"	f
+l9#deleteAllBuffersExcept	l9.vim	/^function l9#deleteAllBuffersExcept(files)$/;"	f
+l9#echoHl	l9.vim	/^function l9#echoHl(hl, msg, prefix, addingHistory)$/;"	f
+l9#filterWithLimit	l9.vim	/^function l9#filterWithLimit(items, expr, limit)$/;"	f
+l9#getPathSeparator	l9.vim	/^function l9#getPathSeparator()$/;"	f
+l9#getSelectedText	l9.vim	/^function l9#getSelectedText()$/;"	f
+l9#getVersion	l9.vim	/^function l9#getVersion()$/;"	f
+l9#grepBuffers	l9.vim	/^function l9#grepBuffers(pattern, bufNrs)$/;"	f
+l9#grepFiles	l9.vim	/^function l9#grepFiles(pattern, files)$/;"	f
+l9#guardScriptLoading	l9.vim	/^function l9#guardScriptLoading(path, vimVersion, l9Version, exprs)$/;"	f
+l9#hash224	l9.vim	/^function l9#hash224(str)$/;"	f
+l9#inputHl	l9.vim	/^function l9#inputHl(hl, ...)$/;"	f
+l9#isCompatible	l9.vim	/^function l9#isCompatible(ver)$/;"	f
+l9#loadFilesToBuffers	l9.vim	/^function l9#loadFilesToBuffers(files)$/;"	f
+l9#loadScript	l9.vim	/^function l9#loadScript(text)$/;"	f
+l9#modifyPathRelativeToDir	l9.vim	/^function l9#modifyPathRelativeToDir(path, dir)$/;"	f
+l9#moveToBufferWindowInCurrentTabpage	l9.vim	/^function l9#moveToBufferWindowInCurrentTabpage(bufNr)$/;"	f
+l9#moveToBufferWindowInOtherTabpage	l9.vim	/^function l9#moveToBufferWindowInOtherTabpage(bufNr)$/;"	f
+l9#notifyBalloonly	l9.vim	/^function l9#notifyBalloonly(msg)$/;"	f
+l9#notifyExternally	l9.vim	/^function l9#notifyExternally(msg)$/;"	f
+l9#notifyScreen	l9.vim	/^function l9#notifyScreen(msg)$/;"	f
+l9#notifyTmux	l9.vim	/^function l9#notifyTmux(msg)$/;"	f
+l9#placeSign	l9.vim	/^function l9#placeSign(linehl, text, texthl, locations)$/;"	f
+l9#quickfix#compareEntries	l9/quickfix.vim	/^function l9#quickfix#compareEntries(e0, e1)$/;"	f
+l9#quickfix#isWindowOpened	l9/quickfix.vim	/^function l9#quickfix#isWindowOpened()$/;"	f
+l9#quickfix#openIfNotEmpty	l9/quickfix.vim	/^function l9#quickfix#openIfNotEmpty(onlyRecognized, holdCursor)$/;"	f
+l9#quickfix#placeSign	l9/quickfix.vim	/^function l9#quickfix#placeSign()$/;"	f
+l9#quickfix#setMakeResult	l9/quickfix.vim	/^function l9#quickfix#setMakeResult(lines)$/;"	f
+l9#quickfix#sort	l9/quickfix.vim	/^function l9#quickfix#sort()$/;"	f
+l9#quickfix#toggleWindow	l9/quickfix.vim	/^function l9#quickfix#toggleWindow()$/;"	f
+l9#readFile	l9.vim	/^function l9#readFile(...)$/;"	f
+l9#removeIf	l9.vim	/^function l9#removeIf(items, expr)$/;"	f
+l9#removeLinesBetween	l9.vim	/^function l9#removeLinesBetween(lines, begin, end)$/;"	f
+l9#shiftWinNextTabpage	l9.vim	/^function l9#shiftWinNextTabpage()$/;"	f
+l9#shiftWinPrevTabpage	l9.vim	/^function l9#shiftWinPrevTabpage()$/;"	f
+l9#snipHead	l9.vim	/^function l9#snipHead(str, len, mask)$/;"	f
+l9#snipMid	l9.vim	/^function l9#snipMid(str, len, mask)$/;"	f
+l9#snipTail	l9.vim	/^function l9#snipTail(str, len, mask)$/;"	f
+l9#tempbuffer#close	l9/tempbuffer.vim	/^function l9#tempbuffer#close(bufname)$/;"	f
+l9#tempbuffer#isOpen	l9/tempbuffer.vim	/^function l9#tempbuffer#isOpen(bufname)$/;"	f
+l9#tempbuffer#moveTo	l9/tempbuffer.vim	/^function l9#tempbuffer#moveTo(bufname)$/;"	f
+l9#tempbuffer#openReadOnly	l9/tempbuffer.vim	/^function l9#tempbuffer#openReadOnly(bufname, filetype, lines, topleft, vertical, height, listener)$/;"	f
+l9#tempbuffer#openScratch	l9/tempbuffer.vim	/^function l9#tempbuffer#openScratch(bufname, filetype, lines, topleft, vertical, height, listener)$/;"	f
+l9#tempbuffer#openWritable	l9/tempbuffer.vim	/^function l9#tempbuffer#openWritable(bufname, filetype, lines, topleft, vertical, height, listener)$/;"	f
+l9#tempvariables#end	l9/tempvariables.vim	/^function l9#tempvariables#end(group)$/;"	f
+l9#tempvariables#getList	l9/tempvariables.vim	/^function l9#tempvariables#getList(group)$/;"	f
+l9#tempvariables#set	l9/tempvariables.vim	/^function l9#tempvariables#set(group, name, value)$/;"	f
+l9#tempvariables#setList	l9/tempvariables.vim	/^function l9#tempvariables#setList(group, variables)$/;"	f
+l9#unique	l9.vim	/^function l9#unique(items)$/;"	f
+l9#uniqueStably	l9.vim	/^function l9#uniqueStably(items)$/;"	f
+l9#writeAll	l9.vim	/^function l9#writeAll()$/;"	f
+l9#writeFile	l9.vim	/^function l9#writeFile(...)$/;"	f
+l9#zip	l9.vim	/^function l9#zip(items)$/;"	f
+lastformat	rails.vim	/^function! s:lastformat(start)$/;"	f
+lastmethod	rails.vim	/^function! s:lastmethod(...)$/;"	f
+lastmethodline	rails.vim	/^function! s:lastmethodline(start)$/;"	f
+lastopeningline	rails.vim	/^function! s:lastopeningline(pattern,limit,start)$/;"	f
+layoutEdit	rails.vim	/^function! s:layoutEdit(cmd,...)$/;"	f
+layoutList	rails.vim	/^function! s:layoutList(A,L,P)$/;"	f
+libEdit	rails.vim	/^function! s:libEdit(cmd,...)$/;"	f
+libList	rails.vim	/^function! s:libList(A,L,P)$/;"	f
+linepeak	rails.vim	/^function! s:linepeak()$/;"	f
+listAroundFiles	fuf/mrufile.vim	/^function s:listAroundFiles(dir)$/;"	f
+localeEdit	rails.vim	/^function! s:localeEdit(cmd,...)$/;"	f
+localeList	rails.vim	/^function! s:localeList(A,L,P)$/;"	f
+mailerEdit	rails.vim	/^function! s:mailerEdit(cmd,...)$/;"	f
+mailerList	rails.vim	/^function! s:mailerList(A,L,P)$/;"	f
+makeAdditionalMigemoPattern	fuf.vim	/^function s:makeAdditionalMigemoPattern(pattern)$/;"	f
+makeCtagsCmd	fuf/buffertag.vim	/^function s:makeCtagsCmd(bufNr)$/;"	f
+makeCurrentBehaviorSet	acp.vim	/^function s:makeCurrentBehaviorSet()$/;"	f
+makeFileAbbrInfo	fuf.vim	/^function s:makeFileAbbrInfo(item, maxLenStats)$/;"	f
+makeFuzzyMatchingExpr	fuf.vim	/^function s:makeFuzzyMatchingExpr(target, pattern)$/;"	f
+makeItem	fuf/buffer.vim	/^function s:makeItem(nr)$/;"	f
+makeItem	fuf/buffertag.vim	/^function s:makeItem(tag, itemMap)$/;"	f
+makeItem	fuf/changelist.vim	/^function s:makeItem(line)$/;"	f
+makeItem	fuf/jumplist.vim	/^function s:makeItem(line, bufnrPrev)$/;"	f
+makeItem	fuf/quickfix.vim	/^function s:makeItem(qfItem)$/;"	f
+makePartialMatchingExpr	fuf.vim	/^function s:makePartialMatchingExpr(target, pattern)$/;"	f
+makeRefiningExpr	fuf.vim	/^function s:makeRefiningExpr(pattern)$/;"	f
+makeSnipmateItem	acp.vim	/^function s:makeSnipmateItem(key, snip)$/;"	f
+makewithruby	rails.vim	/^function! s:makewithruby(arg,bang,...)$/;"	f
+mapForMappingDriven	acp.vim	/^function s:mapForMappingDriven()$/;"	f
+match_type	rails.vim	/^function! s:match_type(type,...)$/;"	f
+matchcursor	rails.vim	/^function! s:matchcursor(pat)$/;"	f
+metalEdit	rails.vim	/^function! s:metalEdit(cmd,...)$/;"	f
+metalList	rails.vim	/^function! s:metalList(A,L,P)$/;"	f
+mextargs	rails.vim	/^function! s:mextargs(str,num)$/;"	f
+migrationEdit	rails.vim	/^function! s:migrationEdit(cmd,...)$/;"	f
+migrationList	rails.vim	/^function! s:migrationList(A,L,P)$/;"	f
+migspc	rails.vim	/^function! s:migspc(line)$/;"	f
+mkeep	rails.vim	/^function! s:mkeep(str)$/;"	f
+model	rails.vim	/^function! s:model(...)$/;"	f
+modelEdit	rails.vim	/^function! s:modelEdit(cmd,...)$/;"	f
+modelList	rails.vim	/^function! s:modelList(A,L,P)$/;"	f
+moveToOtherTabpageOpeningBuffer	l9.vim	/^function s:moveToOtherTabpageOpeningBuffer(bufNr)$/;"	f
+observerEdit	rails.vim	/^function! s:observerEdit(cmd,...)$/;"	f
+observerList	rails.vim	/^function! s:observerList(A,L,P)$/;"	f
+omni#common#debug#End	omni/common/debug.vim	/^function! omni#common#debug#End()$/;"	f
+omni#common#debug#Start	omni/common/debug.vim	/^function! omni#common#debug#Start()$/;"	f
+omni#common#debug#Trace	omni/common/debug.vim	/^function! omni#common#debug#Trace(szFuncName, ...)$/;"	f
+omni#common#utils#CompareNumber	omni/common/utils.vim	/^function! omni#common#utils#CompareNumber(i1, i2)$/;"	f
+omni#common#utils#GetWordUnderCursor	omni/common/utils.vim	/^function! omni#common#utils#GetWordUnderCursor()$/;"	f
+omni#common#utils#TagList	omni/common/utils.vim	/^function! omni#common#utils#TagList(szTagQuery)$/;"	f
+omni#common#utils#TagListNoThrow	omni/common/utils.vim	/^function! omni#common#utils#TagListNoThrow(szTagQuery)$/;"	f
+omni#cpp#complete#Init	omni/cpp/complete.vim	/^function! omni#cpp#complete#Init()$/;"	f
+omni#cpp#complete#Main	omni/cpp/complete.vim	/^function! omni#cpp#complete#Main(findstart, base)$/;"	f
+omni#cpp#includes#Display	omni/cpp/includes.vim	/^function! omni#cpp#includes#Display()$/;"	f
+omni#cpp#includes#GetList	omni/cpp/includes.vim	/^function! omni#cpp#includes#GetList(...)$/;"	f
+omni#cpp#items#Get	omni/cpp/items.vim	/^function! omni#cpp#items#Get(tokens, ...)$/;"	f
+omni#cpp#items#ResolveItemsTypeInfo	omni/cpp/items.vim	/^function! omni#cpp#items#ResolveItemsTypeInfo(contextStack, items)$/;"	f
+omni#cpp#maycomplete#Arrow	omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Arrow()$/;"	f
+omni#cpp#maycomplete#Complete	omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Complete()$/;"	f
+omni#cpp#maycomplete#Dot	omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Dot()$/;"	f
+omni#cpp#maycomplete#Scope	omni/cpp/maycomplete.vim	/^function! omni#cpp#maycomplete#Scope()$/;"	f
+omni#cpp#namespaces#GetContexts	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetContexts()$/;"	f
+omni#cpp#namespaces#GetListFromCurrentBuffer	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetListFromCurrentBuffer(...)$/;"	f
+omni#cpp#namespaces#GetMapFromBuffer	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetMapFromBuffer(szFilePath, ...)$/;"	f
+omni#cpp#namespaces#GetMapFromCurrentBuffer	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetMapFromCurrentBuffer()$/;"	f
+omni#cpp#namespaces#GetUsingNamespaces	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#GetUsingNamespaces()$/;"	f
+omni#cpp#namespaces#ResolveAlias	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#ResolveAlias(mapNamespaceAlias, szNamespace)$/;"	f
+omni#cpp#namespaces#ResolveAll	omni/cpp/namespaces.vim	/^function! omni#cpp#namespaces#ResolveAll(namespacesUsed)$/;"	f
+omni#cpp#settings#Init	omni/cpp/settings.vim	/^function! omni#cpp#settings#Init()$/;"	f
+omni#cpp#tokenizer#Tokenize	omni/cpp/tokenizer.vim	/^function! omni#cpp#tokenizer#Tokenize(szCode)$/;"	f
+omni#cpp#utils#BuildParenthesisGroups	omni/cpp/utils.vim	/^function! omni#cpp#utils#BuildParenthesisGroups(tokens)$/;"	f
+omni#cpp#utils#CreateTypeInfo	omni/cpp/utils.vim	/^function! omni#cpp#utils#CreateTypeInfo(param)$/;"	f
+omni#cpp#utils#ExtractCmdFromTagItem	omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractCmdFromTagItem(tagItem)$/;"	f
+omni#cpp#utils#ExtractScope	omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractScope(tagItem)$/;"	f
+omni#cpp#utils#ExtractTypeInfoFromTag	omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractTypeInfoFromTag(tagItem)$/;"	f
+omni#cpp#utils#ExtractTypeInfoFromTokens	omni/cpp/utils.vim	/^function! omni#cpp#utils#ExtractTypeInfoFromTokens(tokens)$/;"	f
+omni#cpp#utils#GetCastType	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCastType(tokens)$/;"	f
+omni#cpp#utils#GetClassInheritanceList	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetClassInheritanceList(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetCode	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCode(posStart, posEnd)$/;"	f
+omni#cpp#utils#GetCodeFromLine	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetCodeFromLine(szSingleLine)$/;"	f
+omni#cpp#utils#GetPreviewWindowStringFromTagItem	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetPreviewWindowStringFromTagItem(tagItem)$/;"	f
+omni#cpp#utils#GetResolvedTagItem	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetResolvedTagItem(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetResolvedTags	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetResolvedTags(namespaces, typeInfo)$/;"	f
+omni#cpp#utils#GetTypeInfoString	omni/cpp/utils.vim	/^function! omni#cpp#utils#GetTypeInfoString(typeInfo)$/;"	f
+omni#cpp#utils#IsCursorInCommentOrString	omni/cpp/utils.vim	/^function! omni#cpp#utils#IsCursorInCommentOrString()$/;"	f
+omni#cpp#utils#IsTypeInfoValid	omni/cpp/utils.vim	/^function! omni#cpp#utils#IsTypeInfoValid(typeInfo)$/;"	f
+omni#cpp#utils#ResolveFilePath	omni/cpp/utils.vim	/^function! omni#cpp#utils#ResolveFilePath(szFile)$/;"	f
+omni#cpp#utils#SimplifyParenthesis	omni/cpp/utils.vim	/^function! omni#cpp#utils#SimplifyParenthesis(tokens)$/;"	f
+omni#cpp#utils#SimplifyScope	omni/cpp/utils.vim	/^function! omni#cpp#utils#SimplifyScope(szScope)$/;"	f
+omni#cpp#utils#TokenizeCurrentInstruction	omni/cpp/utils.vim	/^function! omni#cpp#utils#TokenizeCurrentInstruction(...)$/;"	f
+omni#cpp#utils#TokenizeCurrentInstructionUntilWord	omni/cpp/utils.vim	/^function! omni#cpp#utils#TokenizeCurrentInstructionUntilWord()$/;"	f
+omni#cpp#utils#expIgnoreComments	omni/cpp/utils.vim	/^let omni#cpp#utils#expIgnoreComments = 'getline(".") =~ g:omni#cpp#utils#reIgnoreComment'$/;"	v
+omni#cpp#utils#reIgnoreComment	omni/cpp/utils.vim	/^let omni#cpp#utils#reIgnoreComment = escape('\\\/\\\/\\|\\\/\\*\\|\\*\\\/', '*\/\\')$/;"	v
+omni#cpp#utils#szEscapedCharacters	omni/cpp/utils.vim	/^let omni#cpp#utils#szEscapedCharacters = ' %#'$/;"	v
+onBufDelete	l9/tempbuffer.vim	/^function s:onBufDelete(bufname)$/;"	f
+onBufWriteCmd	l9/tempbuffer.vim	/^function s:onBufWriteCmd(bufname)$/;"	f
+onCommandPre	fuf.vim	/^function s:onCommandPre()$/;"	f
+opts	rails.vim	/^function! s:opts()$/;"	f
+os	l9/async.py	/^import os$/;"	i
+parseChangesLine	fuf/changelist.vim	/^function s:parseChangesLine(line)$/;"	f
+parseHelpTagEntry	fuf/help.vim	/^function s:parseHelpTagEntry(line, tagFile)$/;"	f
+parseHelpTagFiles	fuf/help.vim	/^function s:parseHelpTagFiles(tagFiles, key)$/;"	f
+parseJumpsLine	fuf/jumplist.vim	/^function s:parseJumpsLine(line, bufnrPrev)$/;"	f
+parseJumpsLine	fuf/quickfix.vim	/^function s:parseJumpsLine(line)$/;"	f
+parseTagFiles	fuf/tag.vim	/^function s:parseTagFiles(tagFiles, key)$/;"	f
+parseTagFiles	fuf/taggedfile.vim	/^function s:parseTagFiles(tagFiles, key)$/;"	f
+parseTagLine	fuf/buffertag.vim	/^function s:parseTagLine(line)$/;"	f
+pathjoin	rails.vim	/^function! s:pathjoin(...) abort$/;"	f
+pathsplit	rails.vim	/^function! s:pathsplit(path) abort$/;"	f
+pluginEdit	rails.vim	/^function! s:pluginEdit(cmd,...)$/;"	f
+pluginList	rails.vim	/^function! s:pluginList(A,L,P)$/;"	f
+pop_command	rails.vim	/^function! s:pop_command()$/;"	f
+prephelp	rails.vim	/^function! s:prephelp()$/;"	f
+print_active_worker_keys	l9/async.py	/^    def print_active_worker_keys(self):$/;"	m	class:Asyncer	access:public
+print_output	l9/async.py	/^    def print_output(self, var_key):$/;"	m	class:Asyncer	access:public
+print_worker_keys	l9/async.py	/^    def print_worker_keys(self):$/;"	m	class:Asyncer	access:public
+push_chdir	rails.vim	/^function! s:push_chdir(...)$/;"	f
+put	l9/async.py	/^    def put(self, executor):$/;"	m	class:Worker	access:public
+rails#app	rails.vim	/^function! rails#app(...)$/;"	f
+rails#buffer	rails.vim	/^function! rails#buffer(...)$/;"	f
+rails#cache_clear	rails.vim	/^function! rails#cache_clear(...)$/;"	f
+rails#camelize	rails.vim	/^function! rails#camelize(str)$/;"	f
+rails#log_syntax	rails.vim	/^function! rails#log_syntax()$/;"	f
+rails#new_app_command	rails.vim	/^function! rails#new_app_command(bang,...)$/;"	f
+rails#pluralize	rails.vim	/^function! rails#pluralize(word)$/;"	f
+rails#singularize	rails.vim	/^function! rails#singularize(word)$/;"	f
+rails#underscore	rails.vim	/^function! rails#underscore(str)$/;"	f
+railsPluginAuto	rails.vim	/^augroup railsPluginAuto$/;"	a
+readable_app	rails.vim	/^function! s:readable_app() dict abort$/;"	f
+readable_calculate_file_type	rails.vim	/^function! s:readable_calculate_file_type() dict abort$/;"	f
+readable_controller_name	rails.vim	/^function! s:readable_controller_name(...) dict abort$/;"	f
+readable_default_rake_task	rails.vim	/^function! s:readable_default_rake_task(lnum) dict abort$/;"	f
+readable_define_pattern	rails.vim	/^function! s:readable_define_pattern() dict abort$/;"	f
+readable_end_of	rails.vim	/^function! s:readable_end_of(lnum) dict abort$/;"	f
+readable_last_format	rails.vim	/^function! s:readable_last_format(start) dict abort$/;"	f
+readable_last_method	rails.vim	/^function! s:readable_last_method(start) dict abort$/;"	f
+readable_last_method_line	rails.vim	/^function! s:readable_last_method_line(start) dict abort$/;"	f
+readable_last_opening_line	rails.vim	/^function! s:readable_last_opening_line(start,pattern,limit) dict abort$/;"	f
+readable_line_count	rails.vim	/^function! s:readable_line_count() dict abort$/;"	f
+readable_model_name	rails.vim	/^function! s:readable_model_name(...) dict abort$/;"	f
+readable_preview_urls	rails.vim	/^function! s:readable_preview_urls(lnum) dict abort$/;"	f
+readable_related	rails.vim	/^function! s:readable_related(...) dict abort$/;"	f
+readable_type_name	rails.vim	/^function! s:readable_type_name() dict abort$/;"	f
+readfile	rails.vim	/^function! s:readfile(path,...)$/;"	f
+record_output	l9/async.py	/^    def record_output(self, line):$/;"	m	class:Worker	access:public
+registerCoverage	fuf/coveragefile.vim	/^function s:registerCoverage()$/;"	f
+relglob	rails.vim	/^function! s:relglob(...)$/;"	f
+removeItemFromCache	fuf/mrufile.vim	/^function s:removeItemFromCache(word)$/;"	f
+resetomnicomplete	rails.vim	/^function! s:resetomnicomplete()$/;"	f
+restoreTempOptions	acp.vim	/^function s:restoreTempOptions(group)$/;"	f
+rquote	rails.vim	/^function! s:rquote(str)$/;"	f
+run	l9/async.py	/^    def run(self):$/;"	m	class:Worker	access:public
+s:ABBR_SNIP_MASK	fuf.vim	/^let s:ABBR_SNIP_MASK = '...'$/;"	v
+s:ASYNC_PY_PATH	l9/async.vim	/^let s:ASYNC_PY_PATH = fnamemodify(expand('<sfile>:p:h'), ':p') . 'async.py'$/;"	v
+s:CACHE_DEBUG_TRACE	omni/common/debug.vim	/^let s:CACHE_DEBUG_TRACE = []$/;"	v
+s:CACHE_OVERLOADED_FUNCTIONS	omni/cpp/complete.vim	/^let s:CACHE_OVERLOADED_FUNCTIONS = {}$/;"	v
+s:CACHE_TAG_ENV	omni/cpp/complete.vim	/^let s:CACHE_TAG_ENV = ''$/;"	v
+s:CACHE_TAG_FILES	omni/cpp/complete.vim	/^let s:CACHE_TAG_FILES = {}$/;"	v
+s:CACHE_TAG_POPUP_ITEMS	omni/cpp/complete.vim	/^let s:CACHE_TAG_POPUP_ITEMS = {}$/;"	v
+s:DATA_FILE_VERSION	fuf.vim	/^let s:DATA_FILE_VERSION = 400$/;"	v
+s:FUF_BUF_NAME	fuf.vim	/^let s:FUF_BUF_NAME = '[fuf]'$/;"	v
+s:GROUP0	acp.vim	/^let s:GROUP0 = 0$/;"	v
+s:GROUP1	acp.vim	/^let s:GROUP1 = 1$/;"	v
+s:L9_VERSION_CURRENT	l9.vim	/^let s:L9_VERSION_CURRENT  = 101$/;"	v
+s:L9_VERSION_PASSABLE	l9.vim	/^let s:L9_VERSION_PASSABLE = 101$/;"	v
+s:MODE_NAME	fuf/bookmarkdir.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/bookmarkfile.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/buffer.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/buffertag.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/callbackfile.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/callbackitem.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/changelist.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/coveragefile.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/dir.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/file.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/givencmd.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/givendir.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/givenfile.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/help.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/jumplist.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/line.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/mrucmd.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/mrufile.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/quickfix.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/tag.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:MODE_NAME	fuf/taggedfile.vim	/^let s:MODE_NAME = expand('<sfile>:t:r')$/;"	v
+s:OPEN_TYPE_CURRENT	fuf.vim	/^let s:OPEN_TYPE_CURRENT = 1$/;"	v
+s:OPEN_TYPE_DELETE	fuf/bookmarkdir.vim	/^let s:OPEN_TYPE_DELETE = -1$/;"	v
+s:OPEN_TYPE_DELETE	fuf/bookmarkfile.vim	/^let s:OPEN_TYPE_DELETE = -1$/;"	v
+s:OPEN_TYPE_DELETE	fuf/buffer.vim	/^let s:OPEN_TYPE_DELETE = -1$/;"	v
+s:OPEN_TYPE_DELETE	fuf/line.vim	/^let s:OPEN_TYPE_DELETE = -1$/;"	v
+s:OPEN_TYPE_EXPAND	fuf/mrufile.vim	/^let s:OPEN_TYPE_EXPAND = -1$/;"	v
+s:OPEN_TYPE_SPLIT	fuf.vim	/^let s:OPEN_TYPE_SPLIT   = 2$/;"	v
+s:OPEN_TYPE_TAB	fuf.vim	/^let s:OPEN_TYPE_TAB     = 4$/;"	v
+s:OPEN_TYPE_VSPLIT	fuf.vim	/^let s:OPEN_TYPE_VSPLIT  = 3$/;"	v
+s:OmniCpp_ShowAccess	omni/cpp/complete.vim	/^let s:OmniCpp_ShowAccess = g:OmniCpp_ShowAccess$/;"	v
+s:OmniCpp_ShowPrototypeInAbbr	omni/cpp/complete.vim	/^let s:OmniCpp_ShowPrototypeInAbbr = g:OmniCpp_ShowPrototypeInAbbr$/;"	v
+s:OmniCpp_ShowScopeInAbbr	omni/cpp/complete.vim	/^let s:OmniCpp_ShowScopeInAbbr = g:OmniCpp_ShowScopeInAbbr$/;"	v
+s:TEMP_VARIABLES_GROUP	fuf.vim	/^let s:TEMP_VARIABLES_GROUP = expand('<sfile>:p')$/;"	v
+s:TEMP_VARIABLES_GROUP	fuf/buffertag.vim	/^let s:TEMP_VARIABLES_GROUP = expand('<sfile>:p')$/;"	v
+s:VERSION_FACTOR	l9.vim	/^let s:VERSION_FACTOR = str2float('0.01')$/;"	v
+s:app_prototype	rails.vim	/^let s:app_prototype = {}$/;"	v
+s:app_prototype	rails.vim	/^let s:app_prototype.cache = s:cache_prototype$/;"	v
+s:apps	rails.vim	/^  let s:apps = {}$/;"	v
+s:bMayComplete	omni/cpp/complete.vim	/^let s:bMayComplete = 0$/;"	v
+s:behavsCurrent	acp.vim	/^let s:behavsCurrent = []$/;"	v
+s:bufTimes	fuf/buffer.vim	/^let s:bufTimes = {}$/;"	v
+s:bufferCursorPosMap	fuf.vim	/^let s:bufferCursorPosMap = {}$/;"	v
+s:buffer_prototype	rails.vim	/^let s:buffer_prototype = {}$/;"	v
+s:cache_prototype	rails.vim	/^let s:cache_prototype = {'dict': {}}$/;"	v
+s:cpo_save	rails.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cppKeyword	omni/cpp/tokenizer.vim	/^let s:cppKeyword = ['asm', 'auto', 'bool', 'break', 'case', 'catch', 'char', 'class', 'const', 'const_cast', 'continue', 'default', 'delete', 'do', 'double', 'dynamic_cast', 'else', 'enum', 'explicit', 'export', 'extern', 'false', 'float', 'for', 'friend', 'goto', 'if', 'inline', 'int', 'long', 'mutable', 'namespace', 'new', 'operator', 'private', 'protected', 'public', 'register', 'reinterpret_cast', 'return', 'short', 'signed', 'sizeof', 'static', 'static_cast', 'struct', 'switch', 'template', 'this', 'throw', 'true', 'try', 'typedef', 'typeid', 'typename', 'union', 'unsigned', 'using', 'virtual', 'void', 'volatile', 'wchar_t', 'while', 'and', 'and_eq', 'bitand', 'bitor', 'compl', 'not', 'not_eq', 'or', 'or_eq', 'xor', 'xor_eq']$/;"	v
+s:cppOperatorPunctuator	omni/cpp/tokenizer.vim	/^let s:cppOperatorPunctuator = ['->*', '->', '--', '-=', '-', '!=', '!', '##', '#', '%:%:', '%=', '%>', '%:', '%', '&&', '&=', '&', '(', ')', '*=', '*', ',', '...', '.*', '.', '\/=', '\/', '::', ':>', ':', ';', '?', '[', ']', '^=', '^', '{', '||', '|=', '|', '}', '~', '++', '+=', '+', '<<=', '<%', '<:', '<<', '<=', '<', '==', '=', '>>=', '>>', '>=', '>']$/;"	v
+s:dataMap	l9/tempbuffer.vim	/^let s:dataMap = {}$/;"	v
+s:efm_backtrace	rails.vim	/^let s:efm_backtrace='%D(in\\ %f),'$/;"	v
+s:file	rails.vim	/^let s:file = expand('<sfile>:p')$/;"	v
+s:file_prototype	rails.vim	/^let s:file_prototype = {}$/;"	v
+s:goarch	go/complete.vim	/^    let s:goarch = '*'$/;"	v
+s:goarch	go/complete.vim	/^    let s:goarch = g:golang_goarch$/;"	v
+s:goarch	go/complete.vim	/^let s:goarch = $GOARCH$/;"	v
+s:goos	go/complete.vim	/^    let s:goos = '*'$/;"	v
+s:goos	go/complete.vim	/^    let s:goos = 'darwin'$/;"	v
+s:goos	go/complete.vim	/^    let s:goos = 'windows'$/;"	v
+s:goos	go/complete.vim	/^    let s:goos = g:golang_goos$/;"	v
+s:goos	go/complete.vim	/^let s:goos = $GOOS$/;"	v
+s:handler	fuf/bookmarkdir.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/bookmarkfile.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/buffer.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/buffertag.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/callbackfile.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/callbackitem.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/changelist.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/coveragefile.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/dir.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/file.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/givencmd.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/givendir.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/givenfile.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/help.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/jumplist.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/line.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/mrucmd.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/mrufile.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/quickfix.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/tag.vim	/^let s:handler = {}$/;"	v
+s:handler	fuf/taggedfile.vim	/^let s:handler = {}$/;"	v
+s:handlerBase	fuf.vim	/^let s:handlerBase = {}$/;"	v
+s:hasPreviewWindow	omni/cpp/complete.vim	/^let s:hasPreviewWindow = match(&completeopt, 'preview')>=0$/;"	v
+s:hasPreviewWindowOld	omni/cpp/complete.vim	/^let s:hasPreviewWindowOld = s:hasPreviewWindow$/;"	v
+s:iBehavs	acp.vim	/^let s:iBehavs = 0$/;"	v
+s:lockCount	acp.vim	/^let s:lockCount = 0$/;"	v
+s:matchGroup1	omni/cpp/utils.vim	/^let s:matchGroup1 = 'shared_ptr\\|auto_ptr\\|weak_ptr'$/;"	v
+s:matchGroup2	omni/cpp/utils.vim	/^let s:matchGroup2 = 'list\\|map\\|vector\\|set'$/;"	v
+s:modeNames	fuf.vim	/^let s:modeNames = []$/;"	v
+s:oneTimeVariables	fuf.vim	/^let s:oneTimeVariables = []$/;"	v
+s:origMap	l9/tempvariables.vim	/^let s:origMap = {}$/;"	v
+s:popupItemResultList	omni/cpp/complete.vim	/^let s:popupItemResultList = []$/;"	v
+s:reCComment	omni/cpp/tokenizer.vim	/^let s:reCComment = '\\\/\\*\\|\\*\\\/'$/;"	v
+s:reComment	omni/cpp/tokenizer.vim	/^let s:reComment = s:reCComment.'\\|'.s:reCppComment$/;"	v
+s:reCppComment	omni/cpp/tokenizer.vim	/^let s:reCppComment = '\\\/\\\/'$/;"	v
+s:reCppKeyword	omni/cpp/tokenizer.vim	/^let s:reCppKeyword = '\\C\\<'.join(s:cppKeyword, '\\>\\|\\<').'\\>'$/;"	v
+s:reCppOperatorOrPunctuator	omni/cpp/tokenizer.vim	/^let s:reCppOperatorOrPunctuator = escape(join(s:cppOperatorPunctuator, '\\|'), '*.\/^~[]')$/;"	v
+s:reIncludeFilePart	omni/cpp/includes.vim	/^let s:reIncludeFilePart = '\\(<\\|"\\)\\(\\f\\|\\s\\)\\+\\(>\\|"\\)'$/;"	v
+s:rePreprocIncludeFile	omni/cpp/includes.vim	/^let s:rePreprocIncludeFile = s:rePreprocIncludePart . s:reIncludeFilePart$/;"	v
+s:rePreprocIncludePart	omni/cpp/includes.vim	/^let s:rePreprocIncludePart = '\\C#\\s*include\\s*'$/;"	v
+s:readable_prototype	rails.vim	/^let s:readable_prototype = {}$/;"	v
+s:sid	rails.vim	/^let s:sid = s:sub(maparg("<SID>xx"),'xx$','')$/;"	v
+s:snipItems	acp.vim	/^let s:snipItems = {}$/;"	v
+s:szCurrentWorkingDir	omni/cpp/complete.vim	/^let s:szCurrentWorkingDir = getcwd()$/;"	v
+s:tempOptionSet	acp.vim	/^let s:tempOptionSet = [{}, {}]$/;"	v
+s:view_types	rails.vim	/^let s:view_types = split('rhtml,erb,rxml,builder,rjs,mab,liquid,haml,dryml,mn,slim',',')$/;"	v
+scanlineforuris	rails.vim	/^function! s:scanlineforuris(line)$/;"	f
+scoreBoundaryMatching	fuf.vim	/^function s:scoreBoundaryMatching(wordForBoundary, pattern, exprBoundary)$/;"	f
+scoreSequentialMatching	fuf.vim	/^function s:scoreSequentialMatching(word, pattern)$/;"	f
+scrub	rails.vim	/^function! s:scrub(collection,item)$/;"	f
+selectiveexpand	rails.vim	/^function! s:selectiveexpand(pat,good,default,...)$/;"	f
+setAbbrWithFileAbbrData	fuf.vim	/^function s:setAbbrWithFileAbbrData(item, snippedHeads)$/;"	f
+setCompletefunc	acp.vim	/^function s:setCompletefunc()$/;"	f
+setRanks	fuf.vim	/^function s:setRanks(item, pattern, exprBoundary, stats)$/;"	f
+setTempOption	acp.vim	/^function s:setTempOption(group, name, value)$/;"	f
+setopt	rails.vim	/^function! s:setopt(opt,val)$/;"	f
+sname	rails.vim	/^function! s:sname()$/;"	f
+specEdit	rails.vim	/^function! s:specEdit(cmd,...)$/;"	f
+specList	rails.vim	/^function! s:specList(A,L,P)$/;"	f
+startswith	rails.vim	/^function! s:startswith(string,prefix)$/;"	f
+stylesheetEdit	rails.vim	/^function! s:stylesheetEdit(cmd,...)$/;"	f
+stylesheetList	rails.vim	/^function! s:stylesheetList(A,L,P)$/;"	f
+sub	rails.vim	/^function! s:sub(str,pat,rep)$/;"	f
+subprocess	l9/async.py	/^import subprocess$/;"	i
+taskEdit	rails.vim	/^function! s:taskEdit(cmd,...)$/;"	f
+taskList	rails.vim	/^function! s:taskList(A,L,P)$/;"	f
+threading	l9/async.py	/^import threading$/;"	i
+toLowerForIgnoringCase	fuf.vim	/^function s:toLowerForIgnoringCase(str)$/;"	f
+try	rails.vim	/^function! s:try(cmd) abort$/;"	f
+uniq	rails.vim	/^function! s:uniq(list)$/;"	f
+unittestEdit	rails.vim	/^function! s:unittestEdit(cmd,...)$/;"	f
+unittestList	rails.vim	/^function! s:unittestList(A,L,P)$/;"	f
+unmapForMappingDriven	acp.vim	/^function s:unmapForMappingDriven()$/;"	f
+updateBufTimes	fuf/buffer.vim	/^function s:updateBufTimes()$/;"	f
+updateData	fuf/mrufile.vim	/^function s:updateData()$/;"	f
+updateInfo	fuf/mrucmd.vim	/^function s:updateInfo(cmd)$/;"	f
+viewEdit	rails.vim	/^function! s:viewEdit(cmd,...)$/;"	f
+viewList	rails.vim	/^function! s:viewList(A,L,P)$/;"	f
+viewspattern	rails.vim	/^function! s:viewspattern()$/;"	f
+vim	l9/async.py	/^import vim$/;"	i
+warn	rails.vim	/^function! s:warn(str)$/;"	f
+with_statement	l9/async.py	/^from __future__ import with_statement$/;"	i
