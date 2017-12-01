@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/minglee/lianfeng/storm_net/examples'
-let g:netrw_dirhist_2='/usr/local/include/c++'
-let g:netrw_dirhist_3='/usr/include/boost'
-let g:netrw_dirhist_4='/usr/local/share'
-let g:netrw_dirhist_5='/usr/local/include/c++'
-let g:netrw_dirhist_6='/home/minglee/test/data_struct'
-let g:netrw_dirhist_7='/usr/local/vim'
-let g:netrw_dirhist_8='/usr'
-let g:netrw_dirhist_9='/home/minglee/.git'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='E:\workspace\Server\GameServer\Src\Activity'
+let g:netrw_dirhist_2='E:\workspace\Server\GameServer\Src\Transcription'
+let g:netrw_dirhist_3='E:\zgame'
