@@ -196,7 +196,7 @@ set nocompatible
 filetype off
 
 set rtp+=~/.vim/vundle/
-call vundle#rc()
+"call vundle#rc()
 
 "Bundle 'Valloric/YouCompleteMe'
 
