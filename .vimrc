@@ -5,8 +5,8 @@ set cindent
 " show line number
 set number
 " expande tab
-set expandtab
-set tabstop=8
+set noexpandtab
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 " no folding code
@@ -19,13 +19,30 @@ set hlsearch
 set cino+=(0
 " filter the unwanted files
 let NERDTreeIgnore=['\.o$', '\.lo$', '\.la$', 'tags', 'cscope.*']
-set cscopequickfix=s-,c-,d-,i-,t-,e-
 
-"colorscheme pencil
+"中文乱码
+set fileencodings=ucs-bom,utf-8,gbk,big5,gb18030,latin1
+
+" cscope
+"set cscopequickfix=s-,c-,d-,i-,t-,e-
+set nocscopeverbose
+nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+"colorscheme morning
 "set background=light
 
 set incsearch
 set so=5
+
+"设置不生成交换文件
+set noswapfile
 
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 set statusline=%F%=[Line:%l/%L,Column:%c][%p%%]
