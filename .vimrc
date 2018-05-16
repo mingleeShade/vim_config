@@ -20,6 +20,10 @@ set cino+=(0
 " filter the unwanted files
 let NERDTreeIgnore=['\.o$', '\.lo$', '\.la$', 'tags', 'cscope.*']
 
+if v:version >= 704
+	set relativenumber
+endif
+
 "中文乱码
 set fileencodings=ucs-bom,utf-8,gbk,big5,gb18030,latin1
 
