@@ -38,6 +38,14 @@ nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+function! UpdateCscope()
+	:cs kill 0
+	:silent !find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.hpp" > cscope.files
+	:silent !cscope -bkq -i cscope.files
+	:cs add cscope.out
+	:e
+endfunction
+map <F7> :call UpdateCscope()<CR>
 
 "colorscheme morning
 "set background=light
@@ -47,6 +55,9 @@ set so=5
 
 "设置不生成交换文件
 set noswapfile
+
+hi ModeMsg ctermfg=DarkGreen
+"hi Search  ctermfg=DarkCyan
 
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 set statusline=%F%=[Line:%l/%L,Column:%c][%p%%]
@@ -70,7 +81,7 @@ autocmd VimEnter * call AutoNERDTree()
 
 " auto syntax on"
 function! AutoSyntax()
-    syntax on
+    syntax enable
 endfunction
 
 if !exists("autocommands_syntax")
@@ -115,7 +126,7 @@ function! UpdateTags()
     unlet _ret
 endfunction
 
-autocmd BufWritePost *.cpp,*.h,*.c call UpdateTags()
+"autocmd BufWritePost *.cpp,*.h,*.c call UpdateTags()
 
 " easy copy to/paste from system clipboard
 "nnoremap <C-y> "+y
@@ -201,15 +212,7 @@ function! SetMouse()
 endfunction
 map <C-k> :call SetMouse() <CR>
 
-"set tags+=/home/minglee/workspace/lyingdragon_1_5/warcraft/tags
-"set tags+=/home/minglee/mobileCode/lyingdragon_1_5/warcraft/tags
-set tags+=/usr/include/c++/4.4/tags
-set tags+=/usr/include/boost/tags
-set tags+=/usr/local/include/redfox/tags
 set tags+=tags
-"set tags+=/home/minglee/card/warcraft_card/tags
-"set tags+=/home/minglee/update_card/warcraft_card/tags
-"set tags+=/home/minglee/card/warcraft_card/card_lb/tags
 
 set nocp
 map <F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
