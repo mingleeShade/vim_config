@@ -10,7 +10,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 " no folding code
-set nofoldenable
+"set nofoldenable
 " highlight search
 set hlsearch
 " enbale syntax highlight
@@ -39,10 +39,10 @@ nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 function! UpdateCscope()
-	:cs kill 0
+	:silent cs kill 0
 	:silent !find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.hpp" > cscope.files
 	:silent !cscope -bkq -i cscope.files
-	:cs add cscope.out
+	:silent cs add cscope.out
 	:e
 endfunction
 map <F7> :call UpdateCscope()<CR>
@@ -215,7 +215,7 @@ map <C-k> :call SetMouse() <CR>
 set tags+=tags
 
 set nocp
-map <F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 hi PmenuSel ctermbg=green ctermfg=white
 
