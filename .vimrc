@@ -177,6 +177,11 @@ fun! ShowFuncName()
 endfun
 map F :call ShowFuncName() <CR>
 
+nnoremap k gk
+nnoremap gk k
+nnoremap j gj
+nnoremap gj j
+
 "在插入模式下光标移动
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
