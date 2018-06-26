@@ -175,7 +175,7 @@ fun! ShowFuncName()
   echohl None
   call search("\\%" . lnum . "l" . "\\%" . col . "c")
 endfun
-map F :call ShowFuncName() <CR>
+"map F :call ShowFuncName() <CR>
 
 nnoremap k gk
 nnoremap gk k
