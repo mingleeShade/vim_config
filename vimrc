@@ -221,6 +221,7 @@ endfunction
 map <C-k> :call SetMouse() <CR>
 
 set tags+=tags
+set tags+=~/.tags/cpp/tags "gcc版本库tags文件
 
 set nocp
 map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
@@ -274,3 +275,12 @@ let g:formatdef_allman = '"astyle -A1s4k1W1NYpHjcS --mode=c"'
 let g:formaters_cpp = ['allman']
 let g:formaters_c = ['allman']
 autocmd BufWritePre *.cpp,*.h,*.c :Autoformat
+
+" OmniCppComplete
+let OmniCpp_GlobalScopeSearch = 1
+let OmniCpp_ShowAccess = 1
+let OmniCpp_ShowPrototypeInAbbr = 1 " show function parameters
+let OmniCpp_MayCompleteDot = 1 " autocomplete after .
+let OmniCpp_MayCompleteArrow = 1 " autocomplete after ->
+let OmniCpp_MayCompleteScope = 1 " autocomplete after ::
+let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]

@@ -3,5 +3,5 @@
 rm ~/.vimrc
 rm ~/.vim -rf
 
-cp .vimrc ~
-cp -r .vim ~
+cp vimrc ~/.vimrc
+cp -r vim ~/.vim
