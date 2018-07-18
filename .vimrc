@@ -5,7 +5,7 @@ set cindent
 " show line number
 set number
 " expande tab
-set noexpandtab
+set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -39,11 +39,11 @@ nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 function! UpdateCscope()
-	:silent cs kill 0
-	:silent !find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.hpp" > cscope.files
-	:silent !cscope -bkq -i cscope.files
-	:silent cs add cscope.out
-	:e
+    :silent cs kill 0
+    :silent !find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.hpp" > cscope.files
+    :silent !cscope -bkq -i cscope.files
+    :silent cs add cscope.out
+    :e
 endfunction
 map <F7> :call UpdateCscope()<CR>
 
@@ -90,9 +90,12 @@ if !exists("autocommands_syntax")
     autocmd BufReadPre * call AutoSyntax()
 endif
 
-function! TestFunc(pos)
-    echo "we at " a:pos
-    sleep 1
+function! TestFunc()
+    if exists(':!astyle')
+        echo 'exists astyle'
+    else
+        echo 'not exists astyle'
+    endif
 endfunction
 
 """""""test"""""""
@@ -230,8 +233,12 @@ set backspace=indent,eol,start
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/vundle/
-"call vundle#rc()
+"插件管理工具
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'Chiel92/vim-autoformat'
+call vundle#end()
 
 "Bundle 'Valloric/YouCompleteMe'
 
@@ -260,3 +267,10 @@ set rtp+=~/.vim/vundle/
 "let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
 
 "nnoremap <leader>gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+
+"autoformat插件，代码格式化，需要安装首先需要安装astyle
+let g:formatdef_allman = '"astyle -A1s4k1W1NYpHjcS --mode=c"'
+let g:formaters_cpp = ['allman']
+let g:formaters_c = ['allman']
+autocmd BufWritePre *.cpp,*.h,*.c :Autoformat
