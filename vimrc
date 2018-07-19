@@ -271,7 +271,7 @@ call vundle#end()
 
 
 "autoformat插件，代码格式化，需要安装首先需要安装astyle
-let g:formatdef_allman = '"astyle -A1s4k1W1NYpHjcS --mode=c"'
+let g:formatdef_allman = '"astyle --options=~/.astylerc"'
 let g:formaters_cpp = ['allman']
 let g:formaters_c = ['allman']
 autocmd BufWritePre *.cpp,*.h,*.c :Autoformat

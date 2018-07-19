@@ -1,5 +1,4 @@
 " An example for a vimrc file.
-"
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
 " Last change:	2008 Dec 17
 "
