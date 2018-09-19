@@ -1,7 +1,7 @@
 #!/bin/bash
 
 Init=$1
-if [[ $Init=="init" ]];then
+if [[ $Init == "init" ]];then
     git clone https://github.com/gmarik/Vundle.vim.git vim/bundle/Vundle.vim/
 fi
 
