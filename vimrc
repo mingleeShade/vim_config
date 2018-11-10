@@ -296,7 +296,7 @@ hi NormalTabLine cterm=Underline ctermfg=Black ctermbg=LightGray
 hi NormalPageNum cterm=Underline ctermfg=DarkRed ctermbg=LightGray
 hi NormalWindowsNum cterm=Underline ctermfg=DarkMagenta ctermbg=LightGray
 
-function! MyTabLabel(n, select)
+function! MyTabLabel(n)
     let label = ''
     let buflist = tabpagebuflist(a:n)
     for bufnr in buflist
@@ -342,7 +342,7 @@ function! MyTabLine()
         endif
 
         " MyTabLabel() 提供标签
-        let s .= ' %<%{MyTabLabel(' . (i + 1) . ', ' . select . ')} '
+        let s .= ' %{MyTabLabel(' . (i + 1) . ')} '
 
         "追加窗口数量
         let wincount = tabpagewinnr(i + 1, '$')
