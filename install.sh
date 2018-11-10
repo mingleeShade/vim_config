@@ -6,5 +6,5 @@ if [[ $Init == "init" ]];then
 fi
 
 cp -f vimrc ~/.vimrc
-cp -rf vim ~/.vim
+cp -rf vim/* ~/.vim
 cp -f astylerc ~/.astylerc
