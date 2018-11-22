@@ -275,7 +275,7 @@ call vundle#end()
 let g:formatdef_allman = '"astyle --options=~/.astylerc"'
 let g:formaters_cpp = ['allman']
 let g:formaters_c = ['allman']
-autocmd BufWritePre *.cpp,*.h,*.c :Autoformat
+autocmd BufWritePre *.cpp,*.h,*.c,*.hpp :Autoformat
 
 " OmniCppComplete
 let OmniCpp_GlobalScopeSearch = 1
