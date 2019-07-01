@@ -61,7 +61,7 @@ hi ModeMsg ctermfg=DarkGreen
 "hi Search  ctermfg=DarkCyan
 
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
-set statusline=%F%=[Line:%l/%L,Column:%c][%p%%]
+set statusline=%F%=[FORMAT:%{&ff}\ TYPE:%Y\ ENCODING:%{&fenc}]\ [Line:%l/%L,Column:%c][%p%%]
 set laststatus=2
 set completeopt=menu,menuone
 
@@ -153,10 +153,26 @@ map <F6> :NERDTree<CR>
 " highlight unwanted spaces
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+autocmd VimEnter * match ExtraWhitespace /\s\+$/
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
+
+function! DebugPring(str)
+"    echo a:str
+"    sleep 1
+endfunction
+
+autocmd VimEnter * call DebugPring("VimEnter")
+autocmd BufNewFile * call DebugPring("BufNewFile")
+autocmd BufRead * call DebugPring("BufRead")
+autocmd BufWrite * call DebugPring("BufWrite")
+autocmd BufWinEnter * call DebugPring("BufWinEnter")
+autocmd BufWinLeave * call DebugPring("BufWinLeave")
+autocmd InsertEnter * call DebugPring("InsertEnter")
+autocmd InsertLeave * call DebugPring("InsertLeave")
+autocmd VimLeavePre * call DebugPring("VimLeavePre")
 
 " shotcuts for fuzzyfinder
 map ff <esc>:FufFile **/<cr>
@@ -240,6 +256,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 "Bundle 'Valloric/YouCompleteMe'
@@ -367,3 +384,17 @@ function! MyTabLine()
     return s
 endfunction
 set tabline=%!MyTabLine()
+
+highlight ErrorLog ctermfg=Red ctermbg=None guifg=Red guibg=None
+highlight WarnLog ctermfg=Yellow ctermbg=None guifg=Yellow guibg=None
+match ErrorLog /^\[ERROR.*$/
+match WarnLog /^\[WARN.*$/
+"autocmd BufWinEnter *.log* match ErrorLog /^\[ERROR.*$/
+"autocmd VimEnter *.log* match ErrorLog /^\[ERROR.*$/
+"autocmd BufRead *.log* match ErrorLog /^\[ERROR.*$/
+"autocmd InsertEnter *.log* match ErrorLog /^\[ERROR.*$/
+"autocmd InsertLeave *.log* match ErrorLog /^\[ERROR.*$/
+"autocmd BufWinEnter *.log* match WarnLog /^\[WARN.*$/
+"autocmd VimEnter *.log* match WarnLog /^\[WARN.*$/
+"autocmd BufRead *.log* match WarnLog /^\[WARN.*$/
+"autocmd InsertEnter *.log* match WarnLog /^\[WARN.*$/
