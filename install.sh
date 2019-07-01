@@ -12,6 +12,14 @@ if [[ $Param == "clear" ]];then
     rm ~/.astylerc
 fi
 
+VimDir=~/.vim/
+if [ ! -d $VimDir ]; then
+    echo "$VimDir not exists, will be create"
+    mkdir $VimDir
+else
+    echo "$VimDir exists."
+fi
+
 cp -f vimrc ~/.vimrc
 cp -rf vim/* ~/.vim
 cp -f astylerc ~/.astylerc
