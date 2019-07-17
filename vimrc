@@ -61,7 +61,7 @@ hi ModeMsg ctermfg=DarkGreen
 "hi Search  ctermfg=DarkCyan
 
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
-set statusline=%F%=[FORMAT:%{&ff}\ TYPE:%Y\ ENCODING:%{&fenc}]\ [Line:%l/%L,Column:%c][%p%%]
+set statusline=%F%=[%{&ff}\ %Y\ %{&fenc}][Line:%l/%L,Column:%c][%p%%]
 set laststatus=2
 set completeopt=menu,menuone
 
@@ -236,6 +236,22 @@ function! SetMouse()
     endif
 endfunction
 map <C-k> :call SetMouse() <CR>
+
+let numFlag = 1
+function! SetNum()
+    if g:numFlag == 1
+        let g:numFlag = 0
+        set nonu
+        set norelativenumber
+        echo "number of line off"
+    else
+        let g:numFlag = 1
+        set nu
+        set relativenumber
+        echo "number of line on"
+    endif
+endfunction
+map <C-n> :call SetNum() <CR>
 
 set tags+=tags
 set tags+=~/.tags/cpp/tags "gcc版本库tags文件
