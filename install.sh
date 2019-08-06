@@ -1,9 +1,17 @@
 #!/bin/bash
 
+#检查是系统是debian还是centos
+Debian=`lsb_release -d | grep "Debian" | wc -l`
+echo IsDebian=${Debian}
+
 Param=$1
 if [[ $Param == "init" ]];then
     git clone git@github.com:gmarik/Vundle.vim.git vim/bundle/Vundle.vim/
-    sudo yum install ctags
+    if [ Debian -eq 1 ]; then
+        sudo apt-get install ctags
+    else
+        sudo yum install ctags
+    fi
 fi
 
 if [[ $Param == "clear" ]];then
