@@ -203,13 +203,13 @@ nnoremap j gj
 nnoremap gj j
 
 "在插入模式下光标移动
-inoremap <C-h> <Left>
+"inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 
 "在命令行模式下光标移动
-cnoremap <C-h> <Left>
+"cnoremap <C-h> <Left>
 cnoremap <C-j> <Down>
 cnoremap <C-k> <Up>
 cnoremap <C-l> <Right>

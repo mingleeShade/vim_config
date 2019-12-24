@@ -9,8 +9,10 @@ if [[ $Param == "init" ]];then
     git clone git@github.com:gmarik/Vundle.vim.git vim/bundle/Vundle.vim/
     if [ ${Debian} -eq 1 ]; then
         sudo apt-get install ctags
+	sudo apt-get install cscope
     else
         sudo yum install ctags
+        sudo yum install cscope
     fi
 fi
 
