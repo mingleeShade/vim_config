@@ -173,6 +173,7 @@ autocmd BufWinLeave * call DebugPring("BufWinLeave")
 autocmd InsertEnter * call DebugPring("InsertEnter")
 autocmd InsertLeave * call DebugPring("InsertLeave")
 autocmd VimLeavePre * call DebugPring("VimLeavePre")
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " shotcuts for fuzzyfinder
 map ff <esc>:FufFile **/<cr>
