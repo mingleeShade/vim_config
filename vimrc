@@ -173,6 +173,7 @@ autocmd BufWinLeave * call DebugPring("BufWinLeave")
 autocmd InsertEnter * call DebugPring("InsertEnter")
 autocmd InsertLeave * call DebugPring("InsertLeave")
 autocmd VimLeavePre * call DebugPring("VimLeavePre")
+"记住上次打开的位置
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " shotcuts for fuzzyfinder
