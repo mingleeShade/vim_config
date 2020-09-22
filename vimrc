@@ -275,6 +275,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'tpope/vim-fugitive'
+Plugin 'nathanaelkane/vim-indent-guides'
 call vundle#end()
 
 "Bundle 'Valloric/YouCompleteMe'
@@ -416,3 +417,12 @@ match WarnLog /^\[WARN.*$/
 "autocmd VimEnter *.log* match WarnLog /^\[WARN.*$/
 "autocmd BufRead *.log* match WarnLog /^\[WARN.*$/
 "autocmd InsertEnter *.log* match WarnLog /^\[WARN.*$/
+
+"缩进对齐线
+"let g:indent_guides_enable_on_vim_startup = 1 "添加行，vim启动时启用
+let g:indent_guides_start_level = 1           "添加行，开始显示对齐线的缩进级别
+let g:indent_guides_guide_size = 1            "添加行，对齐线的宽度，（1字符）
+let g:indent_guides_tab_guides = 0            "添加行，对tab对齐的禁用
+
+"设置可显示的隐藏字符$
+set list lcs=eol:$,tab:>-,trail:~,extends:>,precedes:<
