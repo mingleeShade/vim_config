@@ -426,3 +426,4 @@ let g:indent_guides_tab_guides = 0            "添加行，对tab对齐的禁用
 
 "设置可显示的隐藏字符$
 set list lcs=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set nolist
