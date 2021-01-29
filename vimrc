@@ -427,3 +427,10 @@ let g:indent_guides_tab_guides = 0            "添加行，对tab对齐的禁用
 "设置可显示的隐藏字符$
 set list lcs=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set nolist
+
+"设置折叠方式为手工折叠，zf70j,可以折叠当前光标之下的70行，使用help fold-manual 查看帮助信息，zo 展开折叠
+set foldmethod=manual
+"设置折叠配色
+hi Folded guibg=black guifg=grey40 ctermfg=grey ctermbg=darkgrey
+hi FoldColumn guibg=black guifg=grey20 ctermfg=4 ctermbg=7
+
