@@ -404,10 +404,10 @@ function! MyTabLine()
 endfunction
 set tabline=%!MyTabLine()
 
-highlight ErrorLog ctermfg=Red ctermbg=None guifg=Red guibg=None
-highlight WarnLog ctermfg=Yellow ctermbg=None guifg=Yellow guibg=None
-match ErrorLog /^\[ERROR.*$/
-match WarnLog /^\[WARN.*$/
+"highlight ErrorLog ctermfg=Red ctermbg=None guifg=Red guibg=None
+"highlight WarnLog ctermfg=Yellow ctermbg=None guifg=Yellow guibg=None
+"match ErrorLog /^\[ERROR.*$/
+"match WarnLog /^\[WARN.*$/
 "autocmd BufWinEnter *.log* match ErrorLog /^\[ERROR.*$/
 "autocmd VimEnter *.log* match ErrorLog /^\[ERROR.*$/
 "autocmd BufRead *.log* match ErrorLog /^\[ERROR.*$/
