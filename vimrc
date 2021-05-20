@@ -259,7 +259,14 @@ set tags+=tags
 set tags+=~/.tags/cpp/tags "gcc版本库tags文件
 
 set nocp
-map <F8> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+function! GenerateTags()
+    :silent !ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+    :silent !ctags --langdef=MYLUA --langmap=MYLUA:.lua --regex-MYLUA="/^.*\s*function\s*(\w+):(\w+).*$/\2/f/" --regex-MYLUA="/^\s*(\w+)\s*=\s*[0-9]+.*$/\1/e/" --regex-MYLUA="/^.*\s*function\s*(\w+)\.(\w+).*$/\2/f/" --regex-MYLUA="/^.*\s*function\s*(\w+)\s*\(.*$/\1/f/" --regex-MYLUA="/^\s*(\w+)\s*=\s*\{.*$/\1/e/" --regex-MYLUA="/^\s*module\s+\"(\w+)\".*$/\1/m,module/" --regex-MYLUA="/^\s*module\s+\"[a-zA-Z0-9._]+\.(\w+)\".*$/\1/m,module/" --languages=MYLUA --excmd=number -R -o luatags .
+    :silent !cat luatags >> tags
+    :silent !rm -f luatags
+    :e
+endfunction
+map <F8> :call GenerateTags()<CR>
 
 hi PmenuSel ctermbg=green ctermfg=white
 
@@ -276,6 +283,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'tpope/vim-fugitive'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'chrisbra/csv.vim'
 call vundle#end()
 
 "Bundle 'Valloric/YouCompleteMe'
