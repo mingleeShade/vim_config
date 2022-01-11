@@ -259,14 +259,28 @@ set tags+=tags
 set tags+=~/.tags/cpp/tags "gcc版本库tags文件
 
 set nocp
-function! GenerateTags()
-    :silent !ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
-    :silent !ctags --langdef=MYLUA --langmap=MYLUA:.lua --regex-MYLUA="/^.*\s*function\s*(\w+):(\w+).*$/\2/f/" --regex-MYLUA="/^\s*(\w+)\s*=\s*[0-9]+.*$/\1/e/" --regex-MYLUA="/^.*\s*function\s*(\w+)\.(\w+).*$/\2/f/" --regex-MYLUA="/^.*\s*function\s*(\w+)\s*\(.*$/\1/f/" --regex-MYLUA="/^\s*(\w+)\s*=\s*\{.*$/\1/e/" --regex-MYLUA="/^\s*module\s+\"(\w+)\".*$/\1/m,module/" --regex-MYLUA="/^\s*module\s+\"[a-zA-Z0-9._]+\.(\w+)\".*$/\1/m,module/" --languages=MYLUA --excmd=number -R -o luatags .
-    :silent !cat luatags >> tags
-    :silent !rm -f luatags
+function! SelectTagsFunc()
+    if filereadable('.project_vimrc') "判断文件是否存在
+        :source .project_vimrc
+        :call ProjectGenerateTags()
+    else
+        :call DefaultGenerateTags()
+    endif
+    ":silent !ctags --langdef=MYLUA --langmap=MYLUA:.lua --regex-MYLUA="/^.*\s*function\s*(\w+):(\w+).*$/\2/f/" --regex-MYLUA="/^\s*(\w+)\s*=\s*[0-9]+.*$/\1/e/" --regex-MYLUA="/^.*\s*function\s*(\w+)\.(\w+).*$/\2/f/" --regex-MYLUA="/^.*\s*function\s*(\w+)\s*\(.*$/\1/f/" --regex-MYLUA="/^\s*(\w+)\s*=\s*\{.*$/\1/e/" --regex-MYLUA="/^\s*module\s+\"(\w+)\".*$/\1/m,module/" --regex-MYLUA="/^\s*module\s+\"[a-zA-Z0-9._]+\.(\w+)\".*$/\1/m,module/" --languages=MYLUA --excmd=number -R -o luatags .
+    ":silent !cat luatags >> tags
+    ":silent !rm -f luatags
     :e
 endfunction
-map <F8> :call GenerateTags()<CR>
+
+"将此方法拷贝到对应的项目的.project_vimrc中
+"function! ProjectGenerateTags()
+"    :silent !ctags -R --languages=c++ --c++-kinds=+p --fields=+iaS  --exclude=thirdparty --exclude=unreal --exclude=lib --exclude=.git --exclude=boost .
+"endfunction
+
+function! DefaultGenerateTags()
+    :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+endfunction
+map <F8> :call SelectTagsFunc()<CR>
 
 hi PmenuSel ctermbg=green ctermfg=white
 
