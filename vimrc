@@ -274,11 +274,11 @@ endfunction
 
 "将此方法拷贝到对应的项目的.project_vimrc中
 "function! ProjectGenerateTags()
-"    :silent !ctags -R --languages=c++ --c++-kinds=+p --fields=+iaS  --exclude=thirdparty --exclude=unreal --exclude=lib --exclude=.git --exclude=boost .
+"    :silent !ctags -R --languages=c++ --c++-kinds=+p --fields=+iaS  --exclude=thirdparty --exclude=unreal --exclude=lib --exclude=.git --exclude=boost --links=no .
 "endfunction
 
 function! DefaultGenerateTags()
-    :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+    :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --links=no .
 endfunction
 map <F8> :call SelectTagsFunc()<CR>
 
