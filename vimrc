@@ -42,8 +42,8 @@ function! UpdateCscope()
     :silent cs kill 0
     ":silent !find . -path ./robot/share/gpb -prune -o -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.hpp" > cscope.files
     :silent !find . -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" -o -name "*.hpp" > cscope.files
-    :silent !cscope -bkq -i cscope.files
-    :silent cs add cscope.out
+    :!cscope -bkq -i cscope.files
+    :cs add cscope.out
     :e
 endfunction
 map <F7> :call UpdateCscope()<CR>
@@ -274,7 +274,7 @@ endfunction
 
 "将此方法拷贝到对应的项目的.project_vimrc中
 "function! ProjectGenerateTags()
-"    :silent !ctags -R --languages=c++ --c++-kinds=+p --fields=+iaS  --exclude=thirdparty --exclude=unreal --exclude=lib --exclude=.git --exclude=boost --links=no .
+"    :silent !ctags -R --languages=c++ --c++-kinds=+p --fields=+iaS  --exclude=thirdparty --exclude=unreal --exclude=lib --exclude=.git --exclude=boost --links=no.
 "endfunction
 
 function! DefaultGenerateTags()
@@ -297,10 +297,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'tpope/vim-fugitive'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'chrisbra/csv.vim'
+"Plugin 'chrisbra/csv.vim'
 call vundle#end()
 
-"Bundle 'Valloric/YouCompleteMe'
 
 "YouCompleteMe
 "autocmd InsertLeave * if pumvisible() == 0|pclose|endif
@@ -333,7 +332,7 @@ call vundle#end()
 let g:formatdef_allman = '"astyle --options=~/.astylerc"'
 let g:formaters_cpp = ['allman']
 let g:formaters_c = ['allman']
-autocmd BufWritePre *.cpp,*.h,*.c,*.hpp :Autoformat
+"autocmd BufWritePre *.cpp,*.h,*.c,*.hpp :Autoformat
 
 " OmniCppComplete
 let OmniCpp_GlobalScopeSearch = 1
