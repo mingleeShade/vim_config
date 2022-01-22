@@ -5,11 +5,26 @@ Debian=`lsb_release -d | grep "Debian" | wc -l`
 echo IsDebian=${Debian}
 
 Param=$1
+
+Usage()
+{
+    echo "./run.sh install  # Copy self config to ~/.config/nvim/."
+    echo "./run.sh init     # Neovim first install."
+    echo "./run.sh clear    # Clear Neovim config."
+    echo "./run.sh sync     # Copy ~/.config/nvim/ to self config"
+}
+
+init()
+{
+    s
+}
+
 if [[ $Param == "init" ]];then
+    #git clone
     git clone https://github.com/gmarik/Vundle.vim.git vim/bundle/Vundle.vim/
     if [ ${Debian} -eq 1 ]; then
         sudo apt-get install ctags
-	sudo apt-get install cscope
+        sudo apt-get install cscope
     else
         sudo yum install ctags
         sudo yum install cscope
